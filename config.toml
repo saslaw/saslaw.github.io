@@ -1,0 +1,15 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Mae Saslaw"
+theme = "ronu-hugo-theme"
+
+[[menu.main]]
+	name = "About"
+	url = "/about/"
+
+mainSections = ["post"]
+
+  [params]
+	authorNname = "Mae Saslaw"
+	twitterURL = "https://twitter.com/soilenjoyer"
+	email = "mae.saslaw@stonybrook.edu"
