@@ -1,4 +1,4 @@
-baseURL       = "https://boringlava.github.io/website/"
+baseURL       = "https://boringlava.github.io"
 languageCode  = "en-us"
 title         = "Mae Saslaw"
 theme         = "ronu-hugo-theme"
@@ -7,6 +7,7 @@ theme         = "ronu-hugo-theme"
 	name = "Curriculum vitae"
 	url  = "/cv/"
 
+[[menu.main]]
   name = "Presentations"
   url  = "/presentations/"
 
