@@ -19,9 +19,9 @@ This is a post about creating a website using Hugo, GitHub, and blogdown for Rma
 
 I was due for making another work website, and I started with the most obvious option --- I made a Wordpress site on my school's hosting platform. I dropped in the same basic content found here, a short bio for the landing page, and a lightly formatted CV. I chose a theme and modified the style using the Wordpress GUI editor. My institution uses a limited and out-of-date Wordpress installation, but I didn't need much. The result was totally fine. It gave me a place to work out what I was going for.
 
-Once I had the essential CV live, I thought about including a section of the site for notebooks like this one, created in Rmarkdown to show off new figures. Keeping the rest of the content on Wordpress and adding HTML output from Rmarkdown would have required several intermediate steps and I wasn't sure how they'd work. I've seen other R developers ([Alison Hill](https://alison.rbind.io/post/new-year-new-blogdown/), [Amber Thomas](https://amber.rbind.io/2016/12/19/website/)) use Hugo and GitHub Pages as a publishing solution for Rmarkdown, and I looked into it again, the moment I had my Wordpress page in publishable, if not launchable, condition.
+Once I had the essential CV live, I thought about including a section of the site for notebooks like this one, created in Rmarkdown instead of plain .md. Keeping the rest of the content on Wordpress and adding HTML output from Rmarkdown would have required several intermediate steps and I wasn't sure how well they'd work. I've seen other R developers ([Alison Hill](https://alison.rbind.io/post/new-year-new-blogdown/), [Amber Thomas](https://amber.rbind.io/2016/12/19/website/)) use Hugo and GitHub Pages as a publishing solution for Rmarkdown, and I looked into it again, the moment I had my Wordpress page in publishable, if not launchable, condition.
 
-I last used a static site generator almost ten years ago, at a time when most of the tech that goes into them was fairly new, and my project of creating a simple personal site (like this one) with nothing but a text editor and a command line required Git, CSS, Ruby, and at least two other markup languages. At every step I tore down whatever template I had to work with and re-wrote it line for line so the code looked exactly how I wanted it and contained nothing I didn't use. I came away from the experience never wanting to do that again, and now all of it is back, better than before, and it only took me one night to get from zero to finished Wordpress site to finished Hugo + GitHub pages. That's Phase One.
+I last used a static site generator almost ten years ago, at a time when most of the tech that goes into them was fairly new, and my project of creating a simple personal site (like this one) with nothing but a text editor and a command line required Git, CSS, Ruby, and at least two other markup languages. At every step I tore down whatever template I had to work with and re-wrote it line for line so the code looked exactly how I wanted it and contained nothing I didn't use. I came away from the experience never wanting to do that again, and now all of it is back, better than before, and it only took me one night to get from zero to finished Wordpress site to finished Hugo + GitHub Pages. That's Phase One.
 
 ### Step zero: Existing environment
 
@@ -65,13 +65,13 @@ The method described in the [blogdown documentation](https://bookdown.org/yihui/
 Having already installed all the necessary components, adding RStudio to the Hugo publishing procedure went like this:
 
 -   Install package and check Hugo version
--   Test serving local Hugo site in RStudio viewer (This was exciting --- instead of using a browser to view the locally hosted site, it's available in the RStudio viewer window, served through Hugo. I think this is impressive.)
+-   Test serving local Hugo site in RStudio viewer (instead of using a browser to view the locally hosted site, it's available in the RStudio viewer window)
 -   Use RStudio Addins to create post
--   Here is the post
--   Return to Hugo layout files to create Notebooks section of site and
+-   Here is the post!
+-   Return to Hugo layout files to create Notebooks section of site and set up permalinks
 -   Test publishing from Rmarkdown builds
 
-This post is a working demonstration of the above. In [this follow up post](/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/), some R code runs and generates a plot. This enables publishing work in progress, and non-secure sharing of code and products with collaborators who don't need to interact with either. 
+This post is a working demonstration of the above. In [this follow up post](/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/), some R code runs and generates a plot. This enables publishing work in progress, and non-secure sharing of code and products with collaborators who don't need to interact with either.
 
 ### Step Two: Shiny
 
