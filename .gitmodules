@@ -1,6 +1,0 @@
-[submodule "themes/themes/ronu-hugo-theme"]
-	path = themes/themes/ronu-hugo-theme
-	url = https://github.com/softwareyoga/ronu-hugo-theme.git
-[submodule "themes/ronu-hugo-theme"]
-	path = themes/ronu-hugo-theme
-	url = https://github.com/softwareyoga/ronu-hugo-theme.git
