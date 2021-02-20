@@ -1,4 +1,4 @@
-baseURL       = "https://boringlava.github.io"
+baseURL       = "https://boringlava.github.io/"
 languageCode  = "en-us"
 title         = "Mae Saslaw"
 theme         = "ronu-hugo-theme"
