@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Mae Saslaw</title>
-    <link>/</link>
+    <link>https://saslaw.github.io/</link>
     <description>Recent content in About on Mae Saslaw</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saslaw.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentations</title>
-      <link>/presentations/</link>
+      <link>https://saslaw.github.io/presentations/</link>
       <pubDate>Fri, 19 Feb 2021 20:06:14 -0500</pubDate>
       
-      <guid>/presentations/</guid>
+      <guid>https://saslaw.github.io/presentations/</guid>
       <description>Gregory Henkes, ​Mae Saslaw, and Craig Feibel. Persistent warmth in the Turkana Basin, Kenya, from the Late Miocene until present day. 2020.
 abstract
 Kevin Hatton, Troy Rasbury, Gregory Henkes, Mae Saslaw,​ Katie Wooton, Francis Sousa, Stephen Cox, Elena Steponaitis, Sidney R Hemming, Susanne Cote, Paul Northrup, Isaiah Nengo, Theodore Present, Patricia Princehouse, James B Rossie and Ryan Tappero. U-Pb Dating of Oligocene-Miocene Petrified Wood Carbonates from the Turkana Basin, Kenya. 2020.</description>
@@ -20,19 +20,19 @@ Kevin Hatton, Troy Rasbury, Gregory Henkes, Mae Saslaw,​ Katie Wooton, Francis
     
     <item>
       <title>Testing Rmarkdown with GNIP data</title>
-      <link>/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</link>
+      <link>https://saslaw.github.io/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</link>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</guid>
+      <guid>https://saslaw.github.io/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</guid>
       <description>Viewing data I’ve downloaded a small set of data from the International Atomic Energy Agency Global Network for Isotopes in Precipitation that includes water isotope data collected in the last 10 years from 14 sites around the world. With this data source, I can’t pull directly, but I can convert and load a .csv. The code chunk that produces this table also cleans up the data for display.</description>
     </item>
     
     <item>
       <title>The making of</title>
-      <link>/notebooks/2021-02-20-the-making-of/</link>
+      <link>https://saslaw.github.io/notebooks/2021-02-20-the-making-of/</link>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>/notebooks/2021-02-20-the-making-of/</guid>
+      <guid>https://saslaw.github.io/notebooks/2021-02-20-the-making-of/</guid>
       <description>(in progress)
 This is a post about creating a website using Hugo, GitHub, and blogdown for Rmarkdown. There are a number of approaches to this setup, where it starts and which tools to use specifically. My approach is based on prior experience with static site generators, markdown, GitHub, and RStudio.
 Phase One Acceptance I was due for making another work website, and I started with the most obvious option — I made a Wordpress site on my school’s hosting platform.</description>
@@ -40,10 +40,10 @@ Phase One Acceptance I was due for making another work website, and I started wi
     
     <item>
       <title>Curriculum vitae</title>
-      <link>/cv/</link>
+      <link>https://saslaw.github.io/cv/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>/cv/</guid>
+      <guid>https://saslaw.github.io/cv/</guid>
       <description>Education Expected 2024: Doctor of Philosophy, Geosciences
 Stony Brook University
 Bachelor of Science, Geology

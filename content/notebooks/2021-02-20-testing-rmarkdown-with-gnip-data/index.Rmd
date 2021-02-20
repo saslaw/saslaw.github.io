@@ -36,26 +36,24 @@ Getting this to look better will require adjusting the table style in the theme,
 
 A basic ggplot for proof of concept.
 
-```{r basic-plot, echo=FALSE}
+```{r basic-plot}
 theme_set(theme_tufte(base_family = "Helvetica"))
-
-axis.x.max <- max(waters.all$O18) + 0.5
-axis.x.min <- min(waters.all$O18) - 0.5
-axis.y.max <- max(waters.all$H2) + 0.5
-axis.y.min <- min(waters.all$H2) - 0.5
 
 axis.x.label <- expression(paste(delta^{18}, "O (‰ VSMOW)"))
 axis.y.label <- expression(paste(delta, "D (‰ VSMOW)"))
 
-plot.basic <- ggplot(data=waters.all, aes(x=O18, y=H2, color=Country)) +
-  geom_point() +
+plot.basic <- ggplot() +
+  
+  # plot features
+  geom_point(data=waters.all, aes(x=O18, y=H2, color=Country)) +
   geom_abline(data=NULL, aes(slope=8, intercept=10, color="GMWL")) +
-  scale_color_colorblind() +
+  
+  # legend 
+  scale_color_colorblind() + 
+    # without any adjustments to the legend, this one is haphazard 
   
   # axes and titles
-  coord_cartesian(xlim=c(axis.x.min, axis.x.max), ylim=c(axis.y.min, axis.y.max)) + 
-  theme(legend.title=element_blank(), 
-        panel.border=element_rect(fill = NA)) + 
+  coord_cartesian() + 
   labs(x = axis.x.label, 
        y = axis.y.label)
 
