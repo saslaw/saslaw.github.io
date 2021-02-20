@@ -1,6 +1,7 @@
 baseURL       = "https://boringlava.github.io/"
 title         = "Mae Saslaw"
 theme         = "hugo-lithium"
+relativeURLs = true
 languageCode  = "en-us"
 enableEmoji		= true
 
