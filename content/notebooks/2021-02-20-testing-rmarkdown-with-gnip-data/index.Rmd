@@ -51,9 +51,6 @@ plot.basic <- ggplot() +
   # legend 
   scale_color_colorblind() + 
     # without any adjustments to the legend, this one is haphazard 
-  scale_shape_manual(
-    breaks = ("GMWL"),
-    values = ("GMWL" = 1)) +
   
   # axes and titles
   coord_cartesian() + 
