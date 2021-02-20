@@ -92511,19 +92511,23 @@ axis.y.label &lt;- expression(paste(delta, &quot;D (‰ VSMOW)&quot;))
 plot.basic &lt;- ggplot() +
   
   # plot features
-  geom_point(data=waters.all, aes(x=O18, y=H2, color=Country)) +
-  geom_abline(data=NULL, aes(slope=8, intercept=10, color=&quot;GMWL&quot;)) +
+  geom_point(data=waters.all, aes(x=O18, y=H2, color=Country), size = 1) +
+  geom_abline(data=NULL, aes(slope=8, intercept=10, shape=&quot;GMWL&quot;)) +
   
   # legend 
   scale_color_colorblind() + 
     # without any adjustments to the legend, this one is haphazard 
+  scale_shape_manual(
+    breaks = (&quot;GMWL&quot;),
+    values = (&quot;GMWL&quot; = 1)) +
   
   # axes and titles
   coord_cartesian() + 
   labs(x = axis.x.label, 
-       y = axis.y.label)
-
-plot(plot.basic)</code></pre>
+       y = axis.y.label,
+       caption = &quot;Global Meteoric Water Line shown in black&quot;)</code></pre>
+<pre><code>## Warning: Ignoring unknown aesthetics: shape</code></pre>
+<pre class="r"><code>plot(plot.basic)</code></pre>
 <pre><code>## Warning: Removed 768 rows containing missing values (geom_point).</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/basic-plot-1.png" width="672" /></p>
 <p>OK!</p>

@@ -45,17 +45,21 @@ axis.y.label <- expression(paste(delta, "D (‰ VSMOW)"))
 plot.basic <- ggplot() +
   
   # plot features
-  geom_point(data=waters.all, aes(x=O18, y=H2, color=Country)) +
-  geom_abline(data=NULL, aes(slope=8, intercept=10, color="GMWL")) +
+  geom_point(data=waters.all, aes(x=O18, y=H2, color=Country), size = 1) +
+  geom_abline(data=NULL, aes(slope=8, intercept=10, shape="GMWL")) +
   
   # legend 
   scale_color_colorblind() + 
     # without any adjustments to the legend, this one is haphazard 
+  scale_shape_manual(
+    breaks = ("GMWL"),
+    values = ("GMWL" = 1)) +
   
   # axes and titles
   coord_cartesian() + 
   labs(x = axis.x.label, 
-       y = axis.y.label)
+       y = axis.y.label,
+       caption = "Global Meteoric Water Line shown in black")
 
 plot(plot.basic)
 
