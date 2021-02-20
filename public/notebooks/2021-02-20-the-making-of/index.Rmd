@@ -2,11 +2,13 @@
 title: 'The making of'
 date: '2021-02-20'
 ---
+
 ```{r, setup, echo=FALSE, include=FALSE}
 
 knitr::opts_chunk$set(echo=TRUE)
 pacman::p_load(here, knitr, blogdown)
 ```
+
 **(in progress)**
 
 This is a post about creating a website using Hugo, GitHub, and blogdown for Rmarkdown. There are a number of approaches to this setup, where it starts and which tools to use specifically. My approach is based on prior experience with static site generators, markdown, GitHub, and RStudio.
