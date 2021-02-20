@@ -1,4 +1,3 @@
-/* $color-text: #dedce5; */
 /* Replace values above from the other sakura-*.scss files to generate a different theme */
 /* Sakura.css v1.3.1
  * ================
@@ -15,8 +14,8 @@ body {
   line-height: 1.618;
   max-width: 38em;
   margin: auto;
-  color: #d9d8dc;
-  background-color: #120c0e;
+  color: rgba(0, 0, 0, 0.85);
+  background-color: #ffffff;
   padding: 13px; }
 
 @media (max-width: 684px) {
@@ -64,16 +63,16 @@ small, sub, sup {
   font-size: 75%; }
 
 hr {
-  border-color: #eb99a1; }
+  border-color: #3b22ea; }
 
 a {
   text-decoration: none;
-  color: #eb99a1; }
+  color: #3b22ea; }
   a:hover {
     color: #DA4453;
-    border-bottom: 2px solid #d9d8dc; }
+    border-bottom: 2px solid rgba(0, 0, 0, 0.85); }
   a:visited {
-    color: #e26f7a; }
+    color: #2913c6; }
 
 ul {
   padding-left: 1.4em;
@@ -90,9 +89,9 @@ blockquote {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   padding-right: 0.8em;
-  border-left: 5px solid #eb99a1;
+  border-left: 5px solid #3b22ea;
   margin-bottom: 2.5rem;
-  background-color: #40363a; }
+  background-color: #f7f7f7; }
 
 blockquote p {
   margin-bottom: 0; }
@@ -105,7 +104,7 @@ img, video {
 
 /* Pre and Code */
 pre {
-  background-color: #40363a;
+  background-color: #f7f7f7;
   display: block;
   padding: 1em;
   overflow-x: auto;
@@ -115,7 +114,7 @@ pre {
 code {
   font-size: 0.9em;
   padding: 0 0.5em;
-  background-color: #40363a;
+  background-color: #f7f7f7;
   white-space: pre-wrap; }
 
 pre > code {
@@ -131,13 +130,13 @@ table {
 
 td, th {
   padding: 0.5em;
-  border-bottom: 1px solid #40363a; }
+  border-bottom: 1px solid #f7f7f7; }
 
 /* Buttons, forms and input */
 input, textarea {
-  border: 1px solid #d9d8dc; }
+  border: 1px solid rgba(0, 0, 0, 0.85); }
   input:focus, textarea:focus {
-    border: 1px solid #eb99a1; }
+    border: 1px solid #3b22ea; }
 
 textarea {
   width: 100%; }
@@ -148,10 +147,10 @@ textarea {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #eb99a1;
-  color: #120c0e;
+  background-color: #3b22ea;
+  color: #ffffff;
   border-radius: 1px;
-  border: 1px solid #eb99a1;
+  border: 1px solid #3b22ea;
   cursor: pointer;
   box-sizing: border-box; }
   .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
@@ -160,25 +159,25 @@ textarea {
   .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
     background-color: #DA4453;
     border-color: #DA4453;
-    color: #120c0e;
+    color: #ffffff;
     outline: 0; }
 
 textarea, select, input {
-  color: #d9d8dc;
+  color: rgba(0, 0, 0, 0.85);
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
-  background-color: #40363a;
-  border: 1px solid #40363a;
+  background-color: #f7f7f7;
+  border: 1px solid #f7f7f7;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
   textarea:focus, select:focus, input:focus {
-    border: 1px solid #eb99a1;
+    border: 1px solid #3b22ea;
     outline: 0; }
 
 input[type="checkbox"]:focus {
-  outline: 1px dotted #eb99a1; }
+  outline: 1px dotted #3b22ea; }
 
 label, legend, fieldset {
   display: block;
@@ -198,7 +197,7 @@ nav {
     padding: 0; }
   nav li {
     display: inline;
-    color: #eb99a1;
+    color: #3b22ea;
     font-size: .8em;
     margin: 0 2.75% 0 0;
     text-transform: uppercase; }

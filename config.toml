@@ -4,10 +4,8 @@ title = "Mae Saslaw"
 theme = "ronu-hugo-theme"
 
 [[menu.main]]
-	name = "About"
-	url = "/about/"
-
-mainSections = ["post"]
+	name = "Curriculum vitae"
+	url = "/cv/"
 
   [params]
 	authorNname = "Mae Saslaw"
