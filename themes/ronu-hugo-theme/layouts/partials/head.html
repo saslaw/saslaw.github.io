@@ -3,29 +3,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{end}}</title>
 
-    <meta name="robots" content="noodp"/>
-    
+    <meta name="robots" content="all"/>
+
     {{ if .IsPage }}
       <meta name="description" content="{{ .Description }}">
-    {{ else if .IsHome }}
-        <meta name="description" content="{{ .Site.Params.siteDescription }} by {{ .Site.Params.authorNname }}">
-    {{ else if .IsNode }}
+      {{ else if .IsNode }}
           <meta name="description" content="{{ .Title }}">
     {{ end }}
 
     <link rel="canonical" href="{{ .Permalink }}"/>
   
-    {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
-    {{ template "_internal/schema.html" . }}
-
-    {{ with .OutputFormats.Get "rss" -}}
-        {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
-
     <!-- Styles -->
     {{- $normalize_css := resources.Get "css/normalize.css" }}
-   
+
     {{- $inServerMode   := .Site.IsServer }}
     {{- $cssTarget      := "css/style.css" }}
     {{- $cssOptions     := cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
