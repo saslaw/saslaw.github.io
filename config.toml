@@ -18,6 +18,9 @@ enableEmoji		= true
   url  = "/notebooks/"
 	weight = 3
 
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+
 [params]
 	authorNname = "Mae Saslaw"
 	email       = "mae.saslaw@stonybrook.edu"
