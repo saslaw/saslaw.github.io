@@ -1,17 +1,24 @@
 baseURL       = "https://boringlava.github.io/"
-languageCode  = "en-us"
 title         = "Mae Saslaw"
 theme         = "ronu-hugo-theme"
+languageCode  = "en-us"
+enableEmoji		= true
 
 [[menu.main]]
 	name = "Curriculum vitae"
 	url  = "/cv/"
-
+[[menu.main]]
+  name = "Presentations"
+  url  = "/presentations/"
 [[menu.main]]
   name = "Presentations"
   url  = "/presentations/"
 
-  [params]
+[params]
 	authorNname = "Mae Saslaw"
-	twitterURL  = "https://twitter.com/soilenjoyer"
 	email       = "mae.saslaw@stonybrook.edu"
+	description	= "Recent work"
+
+[social]
+  github  = "https://github.com/boringlava"
+  twitter = "https://twitter.com/soilenjoyer"

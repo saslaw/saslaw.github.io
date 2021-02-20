@@ -3,16 +3,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{end}}</title>
 
-    <meta name="robots" content="all"/>
+    <meta name="robots" content="noodp"/>
 
     {{ if .IsPage }}
       <meta name="description" content="{{ .Description }}">
-      {{ else if .IsNode }}
+    {{ else if .IsHome }}
+        <meta name="description" content="{{ .Site.Params.siteDescription }} by {{ .Site.Params.authorNname }}">
+    {{ else if .IsNode }}
           <meta name="description" content="{{ .Title }}">
     {{ end }}
 
     <link rel="canonical" href="{{ .Permalink }}"/>
-  
+
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+    {{ template "_internal/schema.html" . }}
+
+
+
     <!-- Styles -->
     {{- $normalize_css := resources.Get "css/normalize.css" }}
 
