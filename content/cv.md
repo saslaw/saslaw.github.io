@@ -3,7 +3,7 @@ title = "Curriculum vitae"
 date  = "2021-02-19"
 +++
 
-## Education
+## Education 
 Expected 2024: Doctor of Philosophy, Geosciences \
 Stony Brook University
 
@@ -41,6 +41,16 @@ Field Geology Teaching Assistant \
 Stony Brook University Department of Geosciences \
 Fall 2019
 
+## Leadership
+Organizer, Graduate Student Employees Union CWA Local 1104 \
+2020 – present
+
+Founding Vice Chair, Young Democratic Socialists of America Portland State University \
+2017 – 2018
+
+Senator, Associated Students of Portland State University \
+Spring 2018
+
 ## Awards
 David E. King Field Work Award \
 Stony Brook University Department of Geosciences \
@@ -57,13 +67,3 @@ Spring 2019
 Best Undergraduate Poster \
 Sigma Xi Columbia-Willamette Chapter Student Research Symposium \
 Fall 2018
-
-## Leadership
-Organizer, Graduate Student Employees Union CWA Local 1104 \
-2020 – present
-
-Founding Vice Chair, Young Democratic Socialists of America Portland State University \
-2017 – 2018
-
-Senator, Associated Students of Portland State University \
-Spring 2018
