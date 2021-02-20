@@ -1,0 +1,75 @@
+---
+title: 'The making of'
+date: '2021-02-20'
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p><strong>(in progress)</strong></p>
+<p>This is a post about creating a website using Hugo, GitHub, and blogdown for Rmarkdown. There are a number of approaches to this setup, where it starts and which tools to use specifically. My approach is based on prior experience with static site generators, markdown, GitHub, and RStudio.</p>
+<div id="phase-one" class="section level2">
+<h2>Phase One</h2>
+<div id="acceptance" class="section level3">
+<h3>Acceptance</h3>
+<p>I was due for making another work website, and I started with the most obvious option — I made a Wordpress site on my school’s hosting platform. I dropped in the same basic content found here, a short bio for the landing page, and a lightly formatted CV. I chose a theme and modified the style using the Wordpress GUI editor. My institution uses a limited and out-of-date Wordpress installation, but I didn’t need much. The result was totally fine. It gave me a place to work out what I was going for.</p>
+<p>Once I had the essential CV live, I thought about including a section of the site for notebooks like this one, created in Rmarkdown to show off new figures. Keeping the rest of the content on Wordpress and adding HTML output from Rmarkdown would have required several intermediate steps and I wasn’t sure how they’d work. I’ve seen other R developers (<a href="https://alison.rbind.io/post/new-year-new-blogdown/">Alison Hill</a>) use Hugo and GitHub Pages as a publishing solution for Rmarkdown, and I looked into it again, the moment I had my Wordpress page in publishable, if not launchable, condition.</p>
+<p>I last used a static site generator almost ten years ago, at a time when most of the tech that goes into them was fairly new, and my project of creating a simple personal site (like this one) with nothing but a text editor and a command line required Git, CSS, Ruby, and at least two other markup languages. At every step I tore down whatever template I had to work with and re-wrote it line for line so the code looked exactly how I wanted it and contained nothing I didn’t use. I came away from the experience never wanting to do that again, and now all of it is back, better than before, and it only took me one night to get from zero to finished Wordpress site to finished Hugo + GitHub pages. That’s Phase One.</p>
+</div>
+<div id="step-zero-existing-environment" class="section level3">
+<h3>Step zero: Existing environment</h3>
+<p>A probably incomplete list of everything already installed and initialized:</p>
+<ul>
+<li>macOS and Terminal</li>
+<li>GitHub account and working connection between GitHub.app and CLI</li>
+<li>Homebrew to install Hugo</li>
+<li>Atom and RStudio for editing</li>
+</ul>
+</div>
+<div id="step-one-set-up-hugo" class="section level3">
+<h3>Step one: Set up Hugo</h3>
+<p>I relied on the official <a href="https://gohugo.io/documentation/">Hugo documentation</a> for setup. I think it’s best to have Hugo installed and working locally before integrating with GitHub or another host, or starting with the purely RStudio route, although I can see that working just as well. The tools I used in these steps were primarily Terminal to run Hugo commands, Finder and Atom to move and edit files in the Hugo site folder, and Firefox to view the local site.</p>
+<p>The subtasks in Hugo setup are:</p>
+<ul>
+<li>Initialize a site in a new folder</li>
+<li>Install a theme and create some content (I pasted from Wordpress)</li>
+<li>Confirm functionality on local server and adjust style and templates</li>
+<li>Confirm build success (check whether <code>index.html</code> in <code>/public</code> folder looks right)</li>
+</ul>
+<p>The last piece became a sticking point for me. It is a somewhat common problem for CSS to be missing from the Hugo build output, at first. Because I recognized that the first theme I chose was using SCSS, I thought the odds were good that my version of this problem involved a CSS processing issue, and I did not want to troubleshoot that. I had gotten the site looking the way I wanted with this theme, but I knew it wouldn’t be hard to replicate, so I switched themes to <a href="https://github.com/yihui/hugo-lithium">Yihui’s version of the Lithium theme</a>, which I hope will also prevent issues with Rmarkdown publishing.
+With a new theme installed, Hugo builds were generating the correct stylesheet, and linking to it successfully. At this stage, all the challenges I encountered were limited to Hugo, and modifying templates and other web code to get the built result I wanted. The advantage of ignoring publishing or setting up an IDE at this stage is that I only ever had to troubleshoot Hugo and the site code.</p>
+</div>
+<div id="step-two-connect-hugo-and-github-pages" class="section level3">
+<h3>Step Two: Connect Hugo and GitHub Pages</h3>
+<ul>
+<li>Create repository (choose user or project site)</li>
+<li>Create GitHub Page from repo</li>
+<li>Add workflow for publishing public folder</li>
+<li>Test pushing new site builds to GitHub</li>
+</ul>
+<p>If I wasn’t interested in using Rmarkdown to publish notebooks to my page, I’d stop here. I could continue to use Hugo in the command line, add new content by writing pages in markdown using Atom or any other editor, and publish to GitHub pages by pushing builds, which is a pretty smooth workflow, and much less pain than Wordpress for a cleaner, prettier result.</p>
+</div>
+</div>
+<div id="phase-two" class="section level2">
+<h2>Phase Two</h2>
+<p>With the site working and, again, publishable if not launchable, the next goal is to use a section of the site to showcase current work.</p>
+<div id="step-one-set-up-blogdown-in-rstudio" class="section level3">
+<h3>Step One: Set up blogdown in RStudio</h3>
+<p>The method described in the <a href="https://bookdown.org/yihui/blogdown/get-started.html">blogdown documentation</a> starts in RStudio, and effectively replaces all the tools I used in my Phase One.</p>
+<ul>
+<li>Install package and check Hugo version</li>
+<li>Test serving local Hugo site in RStudio viewer (!!!)</li>
+<li>Use RStudio Addins to create post</li>
+<li>Here is the post</li>
+<li>Generate Notebooks section of site</li>
+</ul>
+</div>
+<div id="step-two-shiny" class="section level3">
+<h3>Step Two: Shiny</h3>
+<p>I haven’t used Shiny before.</p>
+<ul>
+<li>Test Rmarkdown content with data and plots</li>
+<li>Add Shiny elements to Rmarkdown ??</li>
+</ul>
+</div>
+</div>

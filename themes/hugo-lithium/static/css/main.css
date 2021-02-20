@@ -123,6 +123,7 @@ pre > code {
 
 /* Tables */
 table {
+  font-size: 0.9em;
   text-align: justify;
   width: 100%;
   border-collapse: collapse; }

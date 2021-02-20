@@ -3,7 +3,7 @@ title = "Curriculum vitae"
 date  = "2021-02-19"
 +++
 
-## Education 
+## Education
 Expected 2024: Doctor of Philosophy, Geosciences \
 Stony Brook University
 

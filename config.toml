@@ -8,12 +8,15 @@ enableEmoji		= true
 [[menu.main]]
 	name = "Curriculum vitae"
 	url  = "/cv/"
+	weight = 1
 [[menu.main]]
   name = "Presentations"
   url  = "/presentations/"
+	weight = 2
 [[menu.main]]
-  name = "Presentations"
-  url  = "/presentations/"
+  name = "Notebooks"
+  url  = "/notebooks/"
+	weight = 3
 
 [params]
 	authorNname = "Mae Saslaw"

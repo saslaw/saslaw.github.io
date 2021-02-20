@@ -1,0 +1,66 @@
+---
+title: 'Testing Rmarkdown with GNIP data'
+date: '2021-02-20'
+---
+
+```{r, setup, echo=FALSE, include=FALSE}
+
+knitr::opts_chunk$set(echo=TRUE)
+pacman::p_load(here, knitr, blogdown, tidyverse, kableExtra, ggthemes)
+```
+
+## Viewing data
+
+I've downloaded a small set of data from the [International Atomic Energy Agency Global Network for Isotopes in Precipitation](https://nucleus.iaea.org/wiser) that includes water isotope data collected in the last 10 years from 14 sites around the world. With this data source, I can't pull directly, but I can convert and load a .csv. The code chunk that produces this table also cleans up the data for display. The GNIP source doesn't specify units (!!) so I have had to guess. 
+
+```{r GNIP-all, echo=FALSE}
+waters.all <- read.csv(here("data/water/GNIP-daily_2010-2020.csv"))
+
+kable(waters.all %>%
+      select(Site, Country, Date, 
+             "Altitude (m)" = Altitude, 
+             "d18O VSMOW" = O18, 
+             "dD VSMOW" = H2, 
+             "Precipitation (mm)" = Precipitation, 
+             "Air Temperature (C)" = Air.Temperature, 
+             "Vapor pressure" = Vapour.Pressure),
+      digits = 2,
+      format="html") %>%
+      kable_styling() %>%
+      scroll_box(height="500px", width="100%") 
+```
+
+Getting this to look better will require adjusting the table style in the theme, and messing with kable or another package. Having special characters in a table display would be nice, but since they aren't allowed in column names for raw data, it may not be the best precedent to set. 
+
+## Post plot 
+
+A basic ggplot for proof of concept.
+
+```{r basic-plot, echo=FALSE}
+theme_set(theme_tufte(base_family = "Helvetica"))
+
+axis.x.max <- max(waters.all$O18) + 0.5
+axis.x.min <- min(waters.all$O18) - 0.5
+axis.y.max <- max(waters.all$H2) + 0.5
+axis.y.min <- min(waters.all$H2) - 0.5
+
+axis.x.label <- expression(paste(delta^{18}, "O (‰ VSMOW)"))
+axis.y.label <- expression(paste(delta, "D (‰ VSMOW)"))
+
+plot.basic <- ggplot(data=waters.all, aes(x=O18, y=H2, color=Country)) +
+  geom_point() +
+  geom_abline(data=NULL, aes(slope=8, intercept=10, color="GMWL")) +
+  scale_color_colorblind() +
+  
+  # axes and titles
+  coord_cartesian(xlim=c(axis.x.min, axis.x.max), ylim=c(axis.y.min, axis.y.max)) + 
+  theme(legend.title=element_blank(), 
+        panel.border=element_rect(fill = NA)) + 
+  labs(x = axis.x.label, 
+       y = axis.y.label)
+
+plot(plot.basic)
+
+```
+
+OK! 

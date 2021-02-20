@@ -3,26 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://saslaw.github.io/presentations/</loc>
+    <loc>/presentations/</loc>
     <lastmod>2021-02-19T20:06:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://saslaw.github.io/</loc>
+    <loc>/notebooks/</loc>
+    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</loc>
+    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notebooks/2021-02-20-the-making-of/</loc>
+    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://saslaw.github.io/cv/</loc>
+    <loc>/cv/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://saslaw.github.io/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://saslaw.github.io/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
