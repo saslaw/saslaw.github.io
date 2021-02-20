@@ -1,14 +1,9 @@
-<nav class="nav">
-  <a href="{{ "/" | relURL }}" class="nav-logo">
-    <img src="{{ print "images/" .Site.Params.logo.url | relURL }}"
-         width="{{ .Site.Params.logo.width }}"
-         height="{{ .Site.Params.logo.height }}"
-         alt="{{ .Site.Params.logo.alt }}">
-  </a>
 
-  <ul class="nav-links">
+<nav>
+   <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+   <ul>
     {{ range .Site.Menus.main }}
-    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      <a href="{{ .URL | relLangURL }}">{{ .Name }} |</a>
     {{ end }}
-  </ul>
+   </ul>
 </nav>
