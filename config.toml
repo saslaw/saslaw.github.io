@@ -1,7 +1,7 @@
 baseURL       = "https://saslaw.github.io/"
 title         = "Mae Saslaw"
 theme         = "hugo-lithium"
-relativeURLs = true
+relativeURLs 	= true
 languageCode  = "en-us"
 enableEmoji		= true
 

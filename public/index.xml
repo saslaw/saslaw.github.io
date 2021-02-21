@@ -29,6 +29,15 @@ Level 0 My first app uses the RStudio sample Shiny code to create an adjustable 
     </item>
     
     <item>
+      <title>This is a secret post</title>
+      <link>https://saslaw.github.io/secret/secret1/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://saslaw.github.io/secret/secret1/</guid>
+      <description>A post from a plain .md file without an incoming link</description>
+    </item>
+    
+    <item>
       <title>Testing Rmarkdown with GNIP data</title>
       <link>https://saslaw.github.io/notebooks/testing-rmarkdown-with-gnip-data/</link>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
