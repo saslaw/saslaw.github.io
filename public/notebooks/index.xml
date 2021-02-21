@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notebooks on Mae Saslaw</title>
-    <link>/notebooks/</link>
+    <link>https://saslaw.github.io/notebooks/</link>
     <description>Recent content in Notebooks on Mae Saslaw</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="/notebooks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saslaw.github.io/notebooks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing Rmarkdown with GNIP data</title>
-      <link>/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</link>
+      <link>https://saslaw.github.io/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</link>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</guid>
+      <guid>https://saslaw.github.io/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</guid>
       <description>(in progress)
 Rnotebook setup This notebook requires a few R packages, listed and loaded below:
 pacman::p_load(here, knitr, blogdown, tidyverse, lubridate, kableExtra, ggthemes)  Viewing data I’ve downloaded a small set of data from the International Atomic Energy Agency Global Network for Isotopes in Precipitation that includes water isotope data collected in the last 10 years from 14 sites around the world. With this data source, I can’t pull directly, but I can convert and load a .</description>
@@ -20,12 +20,12 @@ pacman::p_load(here, knitr, blogdown, tidyverse, lubridate, kableExtra, ggthemes
     
     <item>
       <title>The making of</title>
-      <link>/notebooks/2021-02-20-the-making-of/</link>
+      <link>https://saslaw.github.io/notebooks/2021-02-20-the-making-of/</link>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>/notebooks/2021-02-20-the-making-of/</guid>
+      <guid>https://saslaw.github.io/notebooks/2021-02-20-the-making-of/</guid>
       <description>(in progress)
-This is a post about creating a website using Hugo, GitHub, and blogdown for Rmarkdown. There are a number of approaches to this setup, where it starts and which tools to use specifically. My approach is based on prior experience with static site generators, markdown, GitHub, and RStudio.
+This is a post about creating a website using Hugo, GitHub, and blogdown for Rmarkdown. There are a number of approaches to this setup, where it starts and which tools to use specifically. My approach is based on prior experience with static site generators, markdown, GitHub, and RStudio. The GitHub repo for this site contains a more detailed history.
 Phase One Acceptance I was due for making another work website, and I started with the most obvious option — I made a Wordpress site on my school’s hosting platform.</description>
     </item>
     
