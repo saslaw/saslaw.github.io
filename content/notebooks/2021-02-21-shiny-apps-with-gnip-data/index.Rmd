@@ -1,0 +1,22 @@
+---
+title: Shiny apps with GNIP data
+author: mae
+date: '2021-02-21'
+slug: shiny-apps-with-gnip-data
+categories:
+  - tech
+tags:
+  - R
+---
+
+**(in progress)**
+
+```{r, setup, echo=FALSE}
+pacman::p_load(here, knitr, blogdown)
+```
+
+## The most basic Shiny app
+
+Apps must be embedded in iframes in order to work with static markdown. 
+
+<iframe src="http://saslaw.shinyapps.io/GNIP-daily-0" width=500px height=400px"></iframe>

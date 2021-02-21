@@ -1,6 +1,11 @@
 ---
 title: 'Testing Rmarkdown with GNIP data'
+author: mae
 date: '2021-02-20'
+categories:
+  - tech
+tags:
+  - R
 ---
 
 **(in progress)**

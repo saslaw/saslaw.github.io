@@ -1,6 +1,11 @@
 ---
 title: 'Testing Rmarkdown with GNIP data'
+author: mae
 date: '2021-02-20'
+categories:
+  - tech
+tags:
+  - R
 ---
 
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
@@ -16,7 +21,7 @@ date: '2021-02-20'
 </div>
 <div id="viewing-data" class="section level2">
 <h2>Viewing data</h2>
-<p>I’ve downloaded a small set of data from the <a href="https://nucleus.iaea.org/wiser">International Atomic Energy Agency Global Network for Isotopes in Precipitation</a> that includes water isotope data collected in the last 10 years from 14 sites around the world. With this data source, I can’t pull directly, but I can convert and load a .csv. The code chunk that produces this table also cleans up the data for display. The GNIP source doesn’t specify units (!!) so I have had to guess.</p>
+<p>I’ve downloaded a small set of data from the <a href="https://nucleus.iaea.org/wiser">International Atomic Energy Agency Global Network for Isotopes in Precipitation</a> that includes water isotope data collected in the last 15 years from 7 sites around the world. The code chunk that produces this table also cleans up the data for display. The GNIP source doesn’t specify units (!!) so I have had to guess.</p>
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:100%; ">
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <thead>
@@ -92534,11 +92539,7 @@ plot.MWL &lt;- ggplot() +
 
 plot(plot.MWL)</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/plot-MWL-1.png" width="672" /></p>
-<p>This plot shows time series data. The code is hidden, it is very similar to the above, with the addition of a copy of the data set for time series analysis.</p>
+<p>The second plot shows time series data. The code is hidden, it is very similar to the above, with the addition of a copy of the data set for time series analysis.</p>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/plot-time-temp-1.png" width="672" /></p>
-<p>Next, I’d like to plot different variables over time. This could be accomplished with a function that builds ggplots from input variables, but here is where I’ll try something new with Shiny. Rendering this .Rmd notebook and building with the two ggplots above is already affecting Hugo performance, so I imagine Shiny will as well.</p>
-</div>
-<div id="interactive-plot-coming-soon" class="section level2">
-<h2>Interactive plot (coming soon)</h2>
-<p>The next step is to add an interactive element using the same GNIP data I have already cleaned. I may test out basic Shiny concepts elsewhere before applying them to this data set.</p>
+<p>Next, I’d like to plot different variables over time. This could be accomplished with a function that builds ggplots from input variables, but instead, I’ll try something new with Shiny, in a subsequent post. Rendering this .Rmd notebook and building with the two ggplots above is already affecting Hugo performance, so I imagine Shiny will as well.</p>
 </div>
