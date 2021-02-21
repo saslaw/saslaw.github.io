@@ -3,6 +3,10 @@ title: 'The making of'
 author: mae
 date: '2021-02-20'
 slug: the-making-of
+categories:
+  - tech
+tags:
+  - site
 weight: 2
 ---
 
@@ -68,14 +72,14 @@ Having already installed all the necessary components, adding RStudio to the Hug
 -   Return to Hugo layout files to create Notebooks section of site and set up permalinks
 -   Test publishing from Rmarkdown builds
 
-This post is a working demonstration of the above. In [this follow up post](/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/), I've manipulated a small data set and generated two plots. Now, I can use notebooks to share work in progress, although I can't limit access or allow interaction with the data, yet.
+This post is a working demonstration of the above. In [this follow up post](/notebooks/testing-rmarkdown-with-gnip-data/), I've manipulated a small data set and generated two plots. Now, I can use notebooks to share work in progress, although I can't limit access or allow interaction with the data, yet.
 
 ### Step Two: Shiny
 
-My expectation that I'd be able to run Shiny apps from this site was incorrect, so the next stage involves setting up shinyapps.io for app deployment, and, once that's working, showing those apps in notebooks via iframe. Since the apps won't be part of the Hugo site structure, I can move them into other folders, and have the option to use shinyapps.io directly for sharing interactive data. 
+My expectation that I'd be able to run Shiny apps from this site was incorrect, so the next stage involves setting up shinyapps.io for app deployment. 
 
 - Create a very small app and test locally
 - Set up shinyapps.io account and deploy 
-- Create a post with an embedded app 
+- Create a more complex Shiny app 
 
-I have a [post containing an iframe running an app](/notebooks/shiny-apps-with-gnip-data/) and will continue developing the app itself into something more complex.
+Since the apps won't be part of the Hugo site structure, I can move them into other folders, and have the option to use shinyapps.io directly for sharing interactive data. They also can't be embedded in posts, for reasons described in my [post linking to my first apps](/notebooks/shiny-apps-with-gnip-data/). This represents the extent of a static site generator's capabilities, so the development cycle now belongs to R and Shiny, and the initial web development phases are complete. 

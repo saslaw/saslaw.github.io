@@ -6,19 +6,14 @@ slug: shiny-apps-with-gnip-data
 categories:
   - tech
 tags:
-  - R
+  - R, site
 ---
 
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
 
 
 <p><strong>(in progress)</strong></p>
-<div id="an-embedded-shiny-app" class="section level2">
-<h2>An embedded Shiny app</h2>
-<p>This app is running on shinyapps.io. It might be included using knitr or iframe, but iframe does not seem to work on live site.</p>
-<iframe src="http://saslaw.shinyapps.io/GNIP-daily-0/?showcase=0" width="672" height="666px">
-</iframe>
-<p>Apps must be embedded in iframes in order to work with static markdown. T</p>
-<iframe src="http://saslaw.shinyapps.io/GNIP-daily-0/" style="border: 1px solid black; width: 100%; height: 500px;">
-</iframe>
-</div>
+<p>Apps hosted on <a href="shinyapps.io">shinyapps.io</a> can’t be displayed on published Rmarkdown pages. This is an intentional limitation of shinyapps, to prevent overuse by bots that might crawl a public page elsewhere. An app can be embedded in an Rmarkdown document, as a frame linked to the app, or as embedded Shiny code if the Rmarkdown file won’t be used to generate a static page. For use with Hugo, I’d have to host my apps somewhere other than <a href="shinyapps.io">shinyapps.io</a> in order to embed them here.</p>
+<p>Alternatively, I can link to my apps from my site, and save time incorporating them into my pages and rebuilding.</p>
+<p>My first app uses the RStudio sample Shiny code, with the GNIP data instead of “Old Faithful” sample data.</p>
+<p><a href="https://saslaw.shinyapps.io/GNIP-daily-0/">See GNIP histograms</a></p>

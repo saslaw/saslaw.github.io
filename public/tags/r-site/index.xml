@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R, site on Mae Saslaw</title>
+    <link>https://saslaw.github.io/tags/r-site/</link>
+    <description>Recent content in R, site on Mae Saslaw</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saslaw.github.io/tags/r-site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shiny apps with GNIP data</title>
+      <link>https://saslaw.github.io/notebooks/shiny-apps-with-gnip-data/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://saslaw.github.io/notebooks/shiny-apps-with-gnip-data/</guid>
+      <description>(in progress)
+Apps hosted on shinyapps.io can’t be displayed on published Rmarkdown pages. This is an intentional limitation of shinyapps, to prevent overuse by bots that might crawl a public page elsewhere. An app can be embedded in an Rmarkdown document, as a frame linked to the app, or as embedded Shiny code if the Rmarkdown file won’t be used to generate a static page. For use with Hugo, I’d have to host my apps somewhere other than shinyapps.</description>
+    </item>
+    
+  </channel>
+</rss>

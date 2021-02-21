@@ -3,6 +3,10 @@ title: 'The making of'
 author: mae
 date: '2021-02-20'
 slug: the-making-of
+categories:
+  - tech
+tags:
+  - site
 weight: 2
 ---
 
@@ -67,16 +71,16 @@ weight: 2
 <li>Return to Hugo layout files to create Notebooks section of site and set up permalinks</li>
 <li>Test publishing from Rmarkdown builds</li>
 </ul>
-<p>This post is a working demonstration of the above. In <a href="/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/">this follow up post</a>, I’ve manipulated a small data set and generated two plots. Now, I can use notebooks to share work in progress, although I can’t limit access or allow interaction with the data, yet.</p>
+<p>This post is a working demonstration of the above. In <a href="/notebooks/testing-rmarkdown-with-gnip-data/">this follow up post</a>, I’ve manipulated a small data set and generated two plots. Now, I can use notebooks to share work in progress, although I can’t limit access or allow interaction with the data, yet.</p>
 </div>
 <div id="step-two-shiny" class="section level3">
 <h3>Step Two: Shiny</h3>
-<p>My expectation that I’d be able to run Shiny apps from this site was incorrect, so the next stage involves setting up shinyapps.io for app deployment, and, once that’s working, showing those apps in notebooks via iframe. Since the apps won’t be part of the Hugo site structure, I can move them into other folders, and have the option to use shinyapps.io directly for sharing interactive data.</p>
+<p>My expectation that I’d be able to run Shiny apps from this site was incorrect, so the next stage involves setting up shinyapps.io for app deployment.</p>
 <ul>
 <li>Create a very small app and test locally</li>
 <li>Set up shinyapps.io account and deploy</li>
-<li>Create a post with an embedded app</li>
+<li>Create a more complex Shiny app</li>
 </ul>
-<p>I have a <a href="/notebooks/shiny-apps-with-gnip-data/">post containing an iframe running an app</a> and will continue developing the app itself into something more complex.</p>
+<p>Since the apps won’t be part of the Hugo site structure, I can move them into other folders, and have the option to use shinyapps.io directly for sharing interactive data. They also can’t be embedded in posts, for reasons described in my <a href="/notebooks/shiny-apps-with-gnip-data/">post linking to my first apps</a>. This represents the extent of a static site generator’s capabilities, so the development cycle now belongs to R and Shiny, and the initial web development phases are complete.</p>
 </div>
 </div>

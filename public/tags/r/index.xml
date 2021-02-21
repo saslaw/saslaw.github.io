@@ -6,25 +6,13 @@
     <description>Recent content in R on Mae Saslaw</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saslaw.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Shiny apps with GNIP data</title>
-      <link>https://saslaw.github.io/notebooks/shiny-apps-with-gnip-data/</link>
-      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://saslaw.github.io/notebooks/shiny-apps-with-gnip-data/</guid>
-      <description>  (in progress)
-An embedded Shiny app This app is running on shinyapps.io. It might be included using knitr or iframe, but iframe does not seem to work on live site.
- Apps must be embedded in iframes in order to work with static markdown. T
-  </description>
-    </item>
-    
+    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saslaw.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing Rmarkdown with GNIP data</title>
-      <link>https://saslaw.github.io/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</link>
+      <link>https://saslaw.github.io/notebooks/testing-rmarkdown-with-gnip-data/</link>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://saslaw.github.io/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</guid>
+      <guid>https://saslaw.github.io/notebooks/testing-rmarkdown-with-gnip-data/</guid>
       <description>(in progress)
 Rnotebook setup This notebook requires a few R packages, listed and loaded below:
 pacman::p_load(here, knitr, blogdown, tidyverse, lubridate, kableExtra, ggthemes)  Viewing data I’ve downloaded a small set of data from the International Atomic Energy Agency Global Network for Isotopes in Precipitation that includes water isotope data collected in the last 15 years from 7 sites around the world. The code chunk that produces this table also cleans up the data for display.</description>

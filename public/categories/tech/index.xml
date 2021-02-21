@@ -8,23 +8,32 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saslaw.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The making of</title>
+      <link>https://saslaw.github.io/notebooks/the-making-of/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://saslaw.github.io/notebooks/the-making-of/</guid>
+      <description>(in progress)
+This is a post about creating a website using Hugo, GitHub, and blogdown for Rmarkdown. There are a number of approaches to this setup, where it starts and which tools to use specifically. My approach is based on prior experience with static site generators, markdown, GitHub, and RStudio. The GitHub repo for this site contains a more detailed history.
+Phase One Acceptance I was due for making another work website, and I started with the most obvious option — I made a Wordpress site on my school’s hosting platform.</description>
+    </item>
+    
+    <item>
       <title>Shiny apps with GNIP data</title>
       <link>https://saslaw.github.io/notebooks/shiny-apps-with-gnip-data/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://saslaw.github.io/notebooks/shiny-apps-with-gnip-data/</guid>
-      <description>  (in progress)
-An embedded Shiny app This app is running on shinyapps.io. It might be included using knitr or iframe, but iframe does not seem to work on live site.
- Apps must be embedded in iframes in order to work with static markdown. T
-  </description>
+      <description>(in progress)
+Apps hosted on shinyapps.io can’t be displayed on published Rmarkdown pages. This is an intentional limitation of shinyapps, to prevent overuse by bots that might crawl a public page elsewhere. An app can be embedded in an Rmarkdown document, as a frame linked to the app, or as embedded Shiny code if the Rmarkdown file won’t be used to generate a static page. For use with Hugo, I’d have to host my apps somewhere other than shinyapps.</description>
     </item>
     
     <item>
       <title>Testing Rmarkdown with GNIP data</title>
-      <link>https://saslaw.github.io/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</link>
+      <link>https://saslaw.github.io/notebooks/testing-rmarkdown-with-gnip-data/</link>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://saslaw.github.io/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</guid>
+      <guid>https://saslaw.github.io/notebooks/testing-rmarkdown-with-gnip-data/</guid>
       <description>(in progress)
 Rnotebook setup This notebook requires a few R packages, listed and loaded below:
 pacman::p_load(here, knitr, blogdown, tidyverse, lubridate, kableExtra, ggthemes)  Viewing data I’ve downloaded a small set of data from the International Atomic Energy Agency Global Network for Isotopes in Precipitation that includes water isotope data collected in the last 15 years from 7 sites around the world. The code chunk that produces this table also cleans up the data for display.</description>
