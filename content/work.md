@@ -1,8 +1,9 @@
 +++
-title = "Presentations"
-date  = "2021-02-19T20:06:14-05:00"
-draft = false
+title = "Recent work"
+date  = "2021-02-19"
 +++
+
+## Presentations
 
 Gregory Henkes, ​**Mae Saslaw**, and Craig Feibel. Persistent warmth in the Turkana Basin, Kenya, from the Late Miocene until present day. 2020. \
 [abstract](https://agu.confex.com/agu/fm20/webprogram/Paper730113.html)

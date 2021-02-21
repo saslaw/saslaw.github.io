@@ -8,17 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saslaw.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Presentations</title>
-      <link>https://saslaw.github.io/presentations/</link>
-      <pubDate>Fri, 19 Feb 2021 20:06:14 -0500</pubDate>
-      
-      <guid>https://saslaw.github.io/presentations/</guid>
-      <description>Gregory Henkes, ​Mae Saslaw, and Craig Feibel. Persistent warmth in the Turkana Basin, Kenya, from the Late Miocene until present day. 2020.
-abstract
-Kevin Hatton, Troy Rasbury, Gregory Henkes, Mae Saslaw,​ Katie Wooton, Francis Sousa, Stephen Cox, Elena Steponaitis, Sidney R Hemming, Susanne Cote, Paul Northrup, Isaiah Nengo, Theodore Present, Patricia Princehouse, James B Rossie and Ryan Tappero. U-Pb Dating of Oligocene-Miocene Petrified Wood Carbonates from the Turkana Basin, Kenya. 2020.</description>
-    </item>
-    
-    <item>
       <title>Testing Rmarkdown with GNIP data</title>
       <link>https://saslaw.github.io/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</link>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
@@ -57,6 +46,17 @@ Stony Brook University Department of Geosciences
 Fall 2019 – Present
 NSF Research Experience for Undergraduates, Stable isotopes of surface water across Sauvie Island, Oregon
 Portland State University Center for Climate and Aerosol Research</description>
+    </item>
+    
+    <item>
+      <title>Recent work</title>
+      <link>https://saslaw.github.io/work/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://saslaw.github.io/work/</guid>
+      <description>Presentations Gregory Henkes, ​Mae Saslaw, and Craig Feibel. Persistent warmth in the Turkana Basin, Kenya, from the Late Miocene until present day. 2020.
+abstract
+Kevin Hatton, Troy Rasbury, Gregory Henkes, Mae Saslaw,​ Katie Wooton, Francis Sousa, Stephen Cox, Elena Steponaitis, Sidney R Hemming, Susanne Cote, Paul Northrup, Isaiah Nengo, Theodore Present, Patricia Princehouse, James B Rossie and Ryan Tappero. U-Pb Dating of Oligocene-Miocene Petrified Wood Carbonates from the Turkana Basin, Kenya.</description>
     </item>
     
   </channel>
