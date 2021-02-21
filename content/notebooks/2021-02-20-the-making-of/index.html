@@ -13,7 +13,6 @@ weight: 2
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
 
 
-<p><strong>(in progress)</strong></p>
 <p>This is a post about creating a website using Hugo, GitHub, and blogdown for Rmarkdown. There are a number of approaches to this setup, where it starts and which tools to use specifically. My approach is based on prior experience with static site generators, markdown, GitHub, and RStudio. The <a href="https://github.com/saslaw/saslaw.github.io">GitHub repo</a> for this site contains a more detailed history.</p>
 <div id="phase-one" class="section level2">
 <h2>Phase One</h2>
@@ -75,12 +74,7 @@ weight: 2
 </div>
 <div id="step-two-shiny" class="section level3">
 <h3>Step Two: Shiny</h3>
-<p>My expectation that I’d be able to run Shiny apps from this site was incorrect, so the next stage involves setting up shinyapps.io for app deployment.</p>
-<ul>
-<li>Create a very small app and test locally</li>
-<li>Set up shinyapps.io account and deploy</li>
-<li>Create a more complex Shiny app</li>
-</ul>
-<p>Since the apps won’t be part of the Hugo site structure, I can move them into other folders, and have the option to use shinyapps.io directly for sharing interactive data. They also can’t be embedded in posts, for reasons described in my <a href="/notebooks/shiny-apps-with-gnip-data/">post linking to my first apps</a>. This represents the extent of a static site generator’s capabilities, so the development cycle now belongs to R and Shiny, and the initial web development phases are complete.</p>
+<p>I’m interested in using Shiny to allow colleagues to interact with my data. There’s a lot to learn about Shiny that is separate from the project of publishing this website. For now, I am using <a href="shinyapps.io">shinyapps.io</a> to host my apps, and referring to the official <a href="https://shiny.rstudio.com/tutorial/written-tutorial">written tutorials</a> and other sources to develop and deploy my first apps.</p>
+<p>Since the apps won’t be part of the Hugo site structure, I can move them into other folders, and have the option to use <a href="shinyapps.io">shinyapps.io</a> directly for sharing interactive data. Apps there can’t be embedded in posts, for reasons described in my <a href="/notebooks/shiny-apps-with-gnip-data/">post linking to my first apps</a>. This represents the extent of a static site generator’s capabilities, so the development cycle now belongs to R and Shiny, and the initial web development phases are complete.</p>
 </div>
 </div>

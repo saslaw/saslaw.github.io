@@ -9,8 +9,6 @@ tags:
   - R
 ---
 
-**(in progress)**
-
 ## Rnotebook setup
 
 This notebook requires a few R packages, listed and loaded below:
@@ -27,7 +25,7 @@ I've downloaded a small set of data from the [International Atomic Energy Agency
 
 waters.all <- read.csv(here("data/water/GNIP-daily_2010-2020.csv"))
 
-kable(waters.all %>%
+waters.display <- kable(waters.all %>%
       select(Site, Country, Date, 
              "Altitude (m)" = Altitude, 
              "d18O VSMOW" = O18, 
@@ -38,11 +36,10 @@ kable(waters.all %>%
       digits = 2,
       format="html") %>%
       kable_styling() %>%
-      scroll_box(height="500px", width="100%") 
+      scroll_box(height="420px", width="100%")
 
+kable_material(waters.display)
 ```
-
-Getting this to look better will require adjusting the table style in the theme, and messing with kable or another package. Having special characters in a table display would be nice, but since they aren't allowed in column names for raw data, it may not be the best precedent to set.
 
 ## Basic ggplots
 
@@ -104,5 +101,5 @@ plot(plot.time.temp)
 
 ```
 
-Next, I'd like to plot different variables over time. This could be accomplished with a function that builds ggplots from input variables, but instead, I'll try something new with Shiny, in a subsequent post. Rendering this .Rmd notebook and building with the two ggplots above is already affecting Hugo performance, so I imagine Shiny will as well. 
+Now I can present a table and two plots in a post. This is groundwork for future posts highlighting new data, in a format that is static. 
 

@@ -10,8 +10,6 @@ tags:
 weight: 2
 ---
 
-**(in progress)**
-
 This is a post about creating a website using Hugo, GitHub, and blogdown for Rmarkdown. There are a number of approaches to this setup, where it starts and which tools to use specifically. My approach is based on prior experience with static site generators, markdown, GitHub, and RStudio. The [GitHub repo](https://github.com/saslaw/saslaw.github.io) for this site contains a more detailed history.
 
 ## Phase One
@@ -76,10 +74,6 @@ This post is a working demonstration of the above. In [this follow up post](/not
 
 ### Step Two: Shiny
 
-My expectation that I'd be able to run Shiny apps from this site was incorrect, so the next stage involves setting up shinyapps.io for app deployment. 
+I'm interested in using Shiny to allow colleagues to interact with my data. There's a lot to learn about Shiny that is separate from the project of publishing this website. For now, I am using [shinyapps.io](shinyapps.io) to host my apps, and referring to the official [written tutorials](https://shiny.rstudio.com/tutorial/written-tutorial) and other sources to develop and deploy my first apps. 
 
-- Create a very small app and test locally
-- Set up shinyapps.io account and deploy 
-- Create a more complex Shiny app 
-
-Since the apps won't be part of the Hugo site structure, I can move them into other folders, and have the option to use shinyapps.io directly for sharing interactive data. They also can't be embedded in posts, for reasons described in my [post linking to my first apps](/notebooks/shiny-apps-with-gnip-data/). This represents the extent of a static site generator's capabilities, so the development cycle now belongs to R and Shiny, and the initial web development phases are complete. 
+Since the apps won't be part of the Hugo site structure, I can move them into other folders, and have the option to use [shinyapps.io](shinyapps.io) directly for sharing interactive data. Apps there can't be embedded in posts, for reasons described in my [post linking to my first apps](/notebooks/shiny-apps-with-gnip-data/). This represents the extent of a static site generator's capabilities, so the development cycle now belongs to R and Shiny, and the initial web development phases are complete. 

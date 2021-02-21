@@ -14,7 +14,6 @@ tags:
 <link href="{{< blogdown/postref >}}index_files/lightable/lightable.css" rel="stylesheet" />
 
 
-<p><strong>(in progress)</strong></p>
 <div id="rnotebook-setup" class="section level2">
 <h2>Rnotebook setup</h2>
 <p>This notebook requires a few R packages, listed and loaded below:</p>
@@ -23,7 +22,7 @@ tags:
 <div id="viewing-data" class="section level2">
 <h2>Viewing data</h2>
 <p>I’ve downloaded a small set of data from the <a href="https://nucleus.iaea.org/wiser">International Atomic Energy Agency Global Network for Isotopes in Precipitation</a> that includes water isotope data collected in the last 15 years from 7 sites around the world. The code chunk that produces this table also cleans up the data for display. The GNIP source doesn’t specify units (!!) so I have had to guess.</p>
-<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:100%; ">
+<div class="lightable-material" style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:420px; overflow-x: scroll; width:100%;  font-family: &quot;Source Sans Pro&quot;, helvetica, sans-serif; margin-left: auto; margin-right: auto;">
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -92510,7 +92509,6 @@ NA
 </tbody>
 </table>
 </div>
-<p>Getting this to look better will require adjusting the table style in the theme, and messing with kable or another package. Having special characters in a table display would be nice, but since they aren’t allowed in column names for raw data, it may not be the best precedent to set.</p>
 </div>
 <div id="basic-ggplots" class="section level2">
 <h2>Basic ggplots</h2>
@@ -92542,5 +92540,5 @@ plot(plot.MWL)</code></pre>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/plot-MWL-1.png" width="672" /></p>
 <p>The second plot shows time series data. The code is hidden, it is very similar to the above, with the addition of a copy of the data set for time series analysis.</p>
 <p><img src="{{< blogdown/postref >}}index_files/figure-html/plot-time-temp-1.png" width="672" /></p>
-<p>Next, I’d like to plot different variables over time. This could be accomplished with a function that builds ggplots from input variables, but instead, I’ll try something new with Shiny, in a subsequent post. Rendering this .Rmd notebook and building with the two ggplots above is already affecting Hugo performance, so I imagine Shiny will as well.</p>
+<p>Now I can present a table and two plots in a post. This is groundwork for future posts highlighting new data, in a format that is static.</p>
 </div>
