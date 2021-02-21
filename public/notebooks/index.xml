@@ -14,7 +14,7 @@
       
       <guid>https://saslaw.github.io/notebooks/shiny-apps-with-gnip-data/</guid>
       <description>  (in progress)
-The most basic Shiny app Apps must be embedded in iframes in order to work with static markdown.
+An embedded Shiny app Apps must be embedded in iframes in order to work with static markdown. This app is running on shinyapps.io
   </description>
     </item>
     

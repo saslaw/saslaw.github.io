@@ -73,3 +73,6 @@ My expectation that I'd be able to run Shiny apps from this site was incorrect, 
 
 - Create a very small app and test locally
 - Set up shinyapps.io account and deploy 
+- Create a post with an embedded app 
+
+I have a [post containing an iframe running an app](/notebooks/shiny-apps-with-gnip-data/) and will continue developing the app itself into something more complex.
