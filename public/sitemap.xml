@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://saslaw.github.io/notebooks/2021-02-20-the-making-of/</loc>
+    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://saslaw.github.io/categories/</loc>
     <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url>
@@ -34,11 +39,6 @@
   
   <url>
     <loc>https://saslaw.github.io/notebooks/2021-02-20-testing-rmarkdown-with-gnip-data/</loc>
-    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://saslaw.github.io/notebooks/2021-02-20-the-making-of/</loc>
     <lastmod>2021-02-20T00:00:00+00:00</lastmod>
   </url>
   
