@@ -19,7 +19,7 @@ pacman::p_load(here, knitr, blogdown, tidyverse, lubridate, kableExtra, ggthemes
 
 ## Viewing data
 
-I've downloaded a small set of data from the [International Atomic Energy Agency Global Network for Isotopes in Precipitation](https://nucleus.iaea.org/wiser) that includes water isotope data collected in the last 15 years from 7 sites around the world. The code chunk that produces this table also cleans up the data for display. The GNIP source doesn't specify units (!!) so I have had to guess.
+I've downloaded a small set of data from the [International Atomic Energy Agency Global Network for Isotopes in Precipitation](https://nucleus.iaea.org/wiser) that includes water isotope data collected in the last 15 years from 7 sites around the world. The code chunk that produces this table also cleans up the data for display. The GNIP source doesn't specify units (!) so I have had to guess.
 
 ```{r GNIP-all, echo=FALSE}
 
@@ -31,8 +31,7 @@ waters.display <- kable(waters.all %>%
              "d18O VSMOW" = O18, 
              "dD VSMOW" = H2, 
              "Precipitation (mm)" = Precipitation, 
-             "Air Temperature (C)" = Air.Temperature, 
-             "Vapor pressure" = Vapour.Pressure),
+             "Air Temperature (C)" = Air.Temperature),
       digits = 2,
       format="html") %>%
       kable_styling() %>%
