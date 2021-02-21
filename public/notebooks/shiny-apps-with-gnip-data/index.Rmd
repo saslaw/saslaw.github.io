@@ -12,13 +12,19 @@ tags:
 **(in progress)**
 
 ```{r, setup, echo=FALSE}
-pacman::p_load(here, knitr, blogdown)
+pacman::p_load(knitr, blogdown)
 ```
 
-Apps hosted on [shinyapps.io](shinyapps.io) can't be displayed on published Rmarkdown pages. This is an intentional limitation of shinyapps, to prevent overuse by bots that might crawl a public page elsewhere. An app can be embedded in an Rmarkdown document, as a frame linked to the app, or as embedded Shiny code if the Rmarkdown file won't be used to generate a static page. For use with Hugo, I'd have to host my apps somewhere other than [shinyapps.io](shinyapps.io) in order to embed them here. 
+This is a collection of links to basic Shiny apps using the [GNIP data set (IAEA/WMO, 2020)](https://nucleus.iaea.org/wiser). Apps are hosted on [shinyapps.io](shinyapps.io), and the code can be found across [my GitHub repos](github.com/saslaw).
 
-Alternatively, I can link to my apps from my site, and save time incorporating them into my pages and rebuilding. 
+## Level 0
 
-My first app uses the RStudio sample Shiny code, with the GNIP data instead of "Old Faithful" sample data.
+My first app uses the RStudio sample Shiny code to create an adjustable histogram, with data from GNIP instead of "Old Faithful" sample data. This demonstrates a deployed app using data from a .csv included in the app folder. 
 
-[See GNIP histograms](https://saslaw.shinyapps.io/GNIP-daily-0/)
+[See histogram with a single variable](https://saslaw.shinyapps.io/GNIP-Level0/)
+
+## Level 1
+
+I created an app to display the data in a table. There are widgets for filtering the data but they aren't implemented yet. The formatting of this page for viewing data could be improved. 
+
+[See data table](https://saslaw.shinyapps.io/GNIP-table/)

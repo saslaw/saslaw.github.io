@@ -14,7 +14,8 @@
       
       <guid>https://saslaw.github.io/notebooks/shiny-apps-with-gnip-data/</guid>
       <description>(in progress)
-Apps hosted on shinyapps.io can’t be displayed on published Rmarkdown pages. This is an intentional limitation of shinyapps, to prevent overuse by bots that might crawl a public page elsewhere. An app can be embedded in an Rmarkdown document, as a frame linked to the app, or as embedded Shiny code if the Rmarkdown file won’t be used to generate a static page. For use with Hugo, I’d have to host my apps somewhere other than shinyapps.</description>
+This is a collection of links to basic Shiny apps using the GNIP data set (IAEA/WMO, 2020). Apps are hosted on shinyapps.io, and the code can be found across my GitHub repos.
+Level 0 My first app uses the RStudio sample Shiny code to create an adjustable histogram, with data from GNIP instead of “Old Faithful” sample data. This demonstrates a deployed app using data from a .</description>
     </item>
     
   </channel>
