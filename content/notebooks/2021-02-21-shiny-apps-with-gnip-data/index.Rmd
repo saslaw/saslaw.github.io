@@ -17,8 +17,15 @@ pacman::p_load(here, knitr, blogdown)
 
 ## An embedded Shiny app
 
-Apps must be embedded in iframes in order to work with static markdown. This app is running on shinyapps.io
+This app is running on shinyapps.io. It might be included using knitr or iframe, but iframe does not seem to work on live site. 
+
+```{r embed, echo=FALSE}
+knitr::include_app("http://saslaw.shinyapps.io/GNIP-daily-0/", height="666px")
+```
+
+Apps must be embedded in iframes in order to work with static markdown. T
 
 <iframe src="http://saslaw.shinyapps.io/GNIP-daily-0/" 
   style="border: 1px solid black; width: 100%; height: 500px;">
 </iframe>
+
