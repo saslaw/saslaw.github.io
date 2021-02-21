@@ -3,8 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://saslaw.github.io/categories/</loc>
+    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://saslaw.github.io/notebooks/</loc>
-    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saslaw.github.io/tags/r/</loc>
+    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saslaw.github.io/notebooks/shiny-apps-with-gnip-data/</loc>
+    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saslaw.github.io/tags/</loc>
+    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://saslaw.github.io/categories/tech/</loc>
+    <lastmod>2021-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -30,14 +55,6 @@
   <url>
     <loc>https://saslaw.github.io/work/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://saslaw.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://saslaw.github.io/tags/</loc>
   </url>
   
 </urlset>

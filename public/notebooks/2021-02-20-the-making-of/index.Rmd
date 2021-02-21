@@ -69,4 +69,7 @@ This post is a working demonstration of the above. In [this follow up post](/not
 
 ### Step Two: Shiny
 
-I haven't used Shiny before, so I'll need to learn how it works and integrates with my setup before I can explain the process.
+My expectation that I'd be able to run Shiny apps from this site was incorrect, so the next stage involves setting up shinyapps.io for app deployment, and, once that's working, showing those apps in notebooks via iframe. Since the apps won't be part of the Hugo site structure, I can move them into other folders, and have the option to use shinyapps.io directly for sharing interactive data. 
+
+- Create a very small app and test locally
+- Set up shinyapps.io account and deploy 
