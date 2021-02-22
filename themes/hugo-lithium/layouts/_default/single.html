@@ -9,6 +9,8 @@
 
     <h1 class="article-title">{{ .Title }}</h1>
 
+    {{ .Date.Format "January 2, 2006" }}
+
     <div>
       {{ with .Params.tags }}
       Tags: <a href="{{ "tags" | absURL}}{{ . | urlize }}">{{ . }}</a>
@@ -21,7 +23,6 @@
     {{ end }}
 
     <div class="article-content">
-      <br />
       {{ .Content }}
     </div>
   </article>
