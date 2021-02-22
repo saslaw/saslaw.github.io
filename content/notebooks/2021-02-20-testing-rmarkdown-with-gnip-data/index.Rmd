@@ -35,9 +35,9 @@ waters.display <- kable(waters.all %>%
       digits = 2,
       format="html") %>%
       kable_styling() %>%
-      scroll_box(height="420px", width="100%")
+      scroll_box(height="400px", width="100%")
 
-kable_minimal(waters.display)
+kable_material(waters.display)
 ```
 
 ## Basic ggplots

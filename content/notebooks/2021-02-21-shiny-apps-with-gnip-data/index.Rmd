@@ -6,7 +6,7 @@ slug: shiny-apps-with-gnip-data
 categories:
   - tech
 tags:
-  - R, site
+  - R
 ---
 
 **(in progress)**
