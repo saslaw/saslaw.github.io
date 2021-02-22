@@ -19,12 +19,12 @@ This is a collection of links to basic Shiny apps using data from the [Global Ne
 
 ## Level 0
 
-My first app uses the RStudio sample Shiny code to create an adjustable histogram, with data from GNIP instead of "Old Faithful" sample data. This demonstrates a deployed app using data from a .csv included in the app folder. 
+My very first app uses the RStudio sample Shiny code to create an adjustable histogram, with data from GNIP instead of "Old Faithful" sample data. This demonstrates a deployed app using data from a .csv included in the app folder. 
 
 [See histogram with a single variable](https://saslaw.shinyapps.io/GNIP-Level0/)
 
-## Level 1
+## Time series and x-y 
 
-I created an app to display the data in a table. There are widgets for filtering the data but they aren't implemented. The formatting of this page for viewing data could be improved. 
+After trying out a few more basic concepts, I wrote this app using ggplot code from my previous post. Users can filter by country and date range, choose a y-axis for a time series plot, and choose axis variables for an x-y plot. 
 
-[See data table](https://saslaw.shinyapps.io/GNIP-table/)
+[See customizable plots](https://saslaw.shinyapps.io/GNIP-ggplot/)
