@@ -205,8 +205,23 @@ summary {
 </div>
 <div id="viewing-data" class="section level2">
 <h2>Viewing data</h2>
-<p>I’ve downloaded a small set of data from the <a href="https://nucleus.iaea.org/wiser">International Atomic Energy Agency Global Network for Isotopes in Precipitation</a> that includes water isotope data collected in the last 15 years from 7 sites around the world. The code chunk that produces this table also cleans up the data for display. The GNIP source doesn’t specify units (!) so I have had to guess.</p>
-<div class="lightable-material" style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:420px; overflow-x: scroll; width:100%;  font-family: &quot;Source Sans Pro&quot;, helvetica, sans-serif; margin-left: auto; margin-right: auto;">
+<p>I’ve downloaded a small set of data from the <a href="https://nucleus.iaea.org/wiser">International Atomic Energy Agency Global Network for Isotopes in Precipitation</a> that includes water isotope data collected in the last 15 years from 7 sites around the world. The GNIP source doesn’t specify units (!) so I have had to guess.</p>
+<pre class="r"><code>waters.all &lt;- read.csv(here(&quot;data/water/GNIP-daily_2010-2020.csv&quot;))
+
+waters.display &lt;- kable(waters.all %&gt;%
+      select(Site, Country, Date,
+             &quot;Altitude (m)&quot; = Altitude,
+             &quot;d18O VSMOW&quot; = O18,
+             &quot;dD VSMOW&quot; = H2,
+             &quot;Precipitation (mm)&quot; = Precipitation,
+             &quot;Air Temperature (C)&quot; = Air.Temperature),
+      digits = 2,
+      format=&quot;html&quot;) %&gt;%
+      kable_styling() %&gt;%
+      scroll_box(height=&quot;420px&quot;, width=&quot;100%&quot;)
+
+kable_minimal(waters.display)</code></pre>
+<div class="lightable-minimal" style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:420px; overflow-x: scroll; width:100%;  font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; margin-left: auto; margin-right: auto;">
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -83136,20 +83151,20 @@ axis.x.label &lt;- expression(paste(delta^{18}, &quot;O (‰ VSMOW)&quot;))
 axis.y.label &lt;- expression(paste(delta, &quot;D (‰ VSMOW)&quot;))
 
 plot.MWL &lt;- ggplot() +
-  
+
   # plot features
   geom_point(data=waters.all %&gt;%
-               drop_na(O18, H2), 
+               drop_na(O18, H2),
              aes(x=O18, y=H2, color=Country), size = 1) +
   geom_abline(data=NULL, aes(slope=8, intercept=10, shape=&quot;GMWL&quot;)) +
-  
-  # legend 
-  scale_color_colorblind() + 
-    # without any adjustments to the legend, this one is haphazard 
-  
+
+  # legend
+  scale_color_colorblind() +
+    # without any adjustments to the legend, this one is haphazard
+
   # axes and titles
-  coord_cartesian() + 
-  labs(x = axis.x.label, 
+  coord_cartesian() +
+  labs(x = axis.x.label,
        y = axis.y.label,
        caption = &quot;Global Meteoric Water Line shown in black&quot;)
 

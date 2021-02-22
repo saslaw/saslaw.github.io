@@ -10,11 +10,6 @@
     <h1 class="article-title">{{ .Title }}</h1>
 
     <div>
-      {{ with .Params.categories }}
-          Categories: <a href="{{ "categories" | absURL}}{{ . | urlize }}">{{ . }}</a>
-        {{ end }}
-    </div>
-    <div>
       {{ with .Params.tags }}
       Tags: <a href="{{ "tags" | absURL}}{{ . | urlize }}">{{ . }}</a>
         {{ end }}
@@ -33,13 +28,14 @@
 
   <div>
     <br />
-    {{ with .PrevInSection }}
-      Previous: <a class="previous" href="{{.Permalink}}">{{ .Title}}</a>
+    {{ with .NextInSection }}
+      Next: <a class="next" href="{{.Permalink}}">{{ .Title}}</a>
     {{ end }}
   </div>
   <div>
-    {{ with .NextInSection }}
-      Next: <a class="next" href="{{.Permalink}}">{{ .Title}}</a>
+
+    {{ with .PrevInSection }}
+      Previous: <a class="previous" href="{{.Permalink}}">{{ .Title}}</a>
     {{ end }}
   </div>
 

@@ -6,14 +6,14 @@
     <description>Recent content in site on Mae Saslaw</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saslaw.github.io/tags/site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saslaw.github.io/tags/site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The making of</title>
       <link>https://saslaw.github.io/notebooks/the-making-of/</link>
-      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://saslaw.github.io/notebooks/the-making-of/</guid>
-      <description>This is a post about creating a website using Hugo, GitHub, and blogdown for Rmarkdown. There are a number of approaches to this setup, where it starts and which tools to use specifically. My approach is based on prior experience with static site generators, markdown, GitHub, and RStudio. The GitHub repo for this site contains a more detailed history.
+      <description>This is a post about creating this website using Hugo, GitHub, and blogdown for Rmarkdown. There are a number of approaches to this setup, where it starts and which tools to use specifically. My approach is based on prior experience with static site generators, markdown, GitHub, and RStudio. The GitHub repo for this site contains a more detailed history.
 Phase One Acceptance I was due for making another work website, and I started with the most obvious option — I made a Wordpress site on my school’s hosting platform.</description>
     </item>
     
