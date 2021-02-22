@@ -8,6 +8,7 @@ categories:
 tags:
   - site
 ---
+&nbsp;  
 
 This is a post about creating this website using Hugo, GitHub, and blogdown for Rmarkdown. There are a number of approaches to this setup, where it starts and which tools to use specifically. My approach is based on prior experience with static site generators, markdown, GitHub, and RStudio. The [GitHub repo](https://github.com/saslaw/saslaw.github.io) for this site contains a more detailed history.
 
