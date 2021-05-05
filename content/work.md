@@ -17,4 +17,4 @@ Kevin Hatton, Troy Rasbury, Gregory Henkes, **Mae Saslaw**,​ Katie Wooton, Fra
 
 ## Culture & Politics
 
-Justine Modica, **Mae Saslaw**, John Klecker, Alex Miller, Surabhi Balachander, Jeremy Glover, and Glenn Houlihan. 2021. [Graduate Student Workers on the Rise: A forum on graduate student organizing and the future of academic labor.](https://www.aaup.org/article/graduate-student-workers-rise). Academe, 107(2).
+Justine Modica, **Mae Saslaw**, John Klecker, Alex Miller, Surabhi Balachander, Jeremy Glover, and Glenn Houlihan. 2021. [Graduate Student Workers on the Rise: A forum on graduate student organizing and the future of academic labor.](https://www.aaup.org/article/graduate-student-workers-rise) Academe, 107(2).
