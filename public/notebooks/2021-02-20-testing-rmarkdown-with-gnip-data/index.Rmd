@@ -1,0 +1,104 @@
+---
+title: 'Rmarkdown with GNIP data'
+author: mae
+date: '2021-02-20'
+slug: rmarkdown-with-gnip-data
+categories:
+  - tech
+tags:
+  - R
+---
+
+## Rnotebook setup
+
+This notebook requires a few R packages, listed and loaded below:
+
+```{r, setup, echo=TRUE}
+pacman::p_load(here, knitr, blogdown, tidyverse, lubridate, kableExtra, ggthemes)
+```
+
+## Viewing data
+
+I've downloaded a small set of data from the [International Atomic Energy Agency Global Network for Isotopes in Precipitation](http://www-naweb.iaea.org/napc/ih/IHS_resources_gnip.html) that includes water isotope data collected in the last 15 years from 7 sites around the world. The GNIP source doesn't specify units (!) so I have had to guess.
+
+```{r GNIP-all, echo=TRUE}
+
+waters.all <- read.csv(here("data/water/GNIP-daily_2010-2020.csv"))
+
+waters.display <- kable(waters.all %>%
+      select(Site, Country, Date,
+             "Altitude (m)" = Altitude,
+             "d18O VSMOW" = O18,
+             "dD VSMOW" = H2,
+             "Precipitation (mm)" = Precipitation,
+             "Air Temperature (C)" = Air.Temperature),
+      digits = 2,
+      format="html") %>%
+      kable_styling() %>%
+      scroll_box(height="400px", width="100%")
+
+kable_material(waters.display)
+
+```
+
+## Basic ggplots
+
+Here is a basic ggplot for water isotopes, with the code to generate it:
+
+```{r plot-MWL, fig.cap="x-y plot of isotope ratios of oxygen-18 and deuterium, showing values from the data set along the Global Meteoric Water Line.", echo=TRUE, warning=FALSE}
+
+theme_set(theme_tufte(base_family = "Helvetica"))
+
+axis.x.label <- expression(paste(delta^{18}, "O (‰ VSMOW)"))
+axis.y.label <- expression(paste(delta, "D (‰ VSMOW)"))
+
+plot.MWL <- ggplot() +
+
+  # plot features
+  geom_point(data=waters.all %>%
+               drop_na(O18, H2),
+             aes(x=O18, y=H2, color=Country), size = 1) +
+  geom_abline(data=NULL, aes(slope=8, intercept=10, shape="GMWL")) +
+
+  # legend
+  scale_color_colorblind() +
+    # without any adjustments to the legend, this one is haphazard
+
+  # axes and titles
+  coord_cartesian() +
+  labs(x = axis.x.label,
+       y = axis.y.label,
+       caption = "Global Meteoric Water Line shown in black")
+
+plot(plot.MWL)
+
+```
+
+The second plot shows time series data. The code is hidden, it is very similar to the above, with the addition of a copy of the data set for time series analysis.
+
+```{r plot-time-temp, fig.cap="Temperature over time is shown for four of the countries.", echo=FALSE}
+
+# new data frame for time series work
+waters.time <- waters.all %>%
+  mutate(Date.Format = ymd(Date))
+
+plot.time.temp <- ggplot() +
+  geom_point(data=waters.time %>%
+               drop_na(Air.Temperature),
+             aes(x=Date.Format, y=Air.Temperature, color=Country), size=1) +
+
+  scale_color_colorblind() +
+  scale_x_date(
+    date_labels = "%Y",
+    date_breaks="1 year") +
+
+  # axes and titles
+  coord_cartesian() +
+  labs(x = NULL,
+       y = "Temperature (°C)")
+
+plot(plot.time.temp)
+
+```
+
+Now I can present a table and two plots in a post. This is groundwork for future posts highlighting new data, in a format that is static.
