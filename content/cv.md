@@ -1,6 +1,6 @@
 +++
 title = "Curriculum vitae"
-date  = "2021-02-19"
+date  = "2021-05-21"
 layout = "single-page"
 +++
 
@@ -53,6 +53,11 @@ Senator, Associated Students of Portland State University \
 Spring 2018
 
 ## Awards
+
+Excellence in Teaching Award \
+Stony Brook University Department of Geosciences \
+2021
+
 David E. King Field Work Award \
 Stony Brook University Department of Geosciences \
 2020 and 2019
