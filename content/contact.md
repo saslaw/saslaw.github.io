@@ -3,10 +3,11 @@ title = "Contact"
 date  = "2021-11-09"
 layout = "single-page"
 +++
+
 ```
 {{< rawhtml >}}
 
-<link rel="stylesheet" href="/css/form.css">
+<link rel="stylesheet" href="/css/main.css">
 
 <form action="https://docs.google.com/forms/d/e/1FAIpQLScct2bbnOAh4I3gVBl11_lBOnvT_MpZzXSoEKaVwUm73zernw/formResponse" method="post"  target="hidden_iframe" onsubmit="submitted=true">
 

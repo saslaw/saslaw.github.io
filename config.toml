@@ -9,6 +9,10 @@ enableEmoji		= true
 	name = "Curriculum vitae"
 	url  = "/cv/"
 	weight = 1
+[[menu.main]]
+	name = "Contact"
+	url  = "/contact/"
+	weight = 2
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
