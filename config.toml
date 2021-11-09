@@ -9,14 +9,6 @@ enableEmoji		= true
 	name = "Curriculum vitae"
 	url  = "/cv/"
 	weight = 1
-[[menu.main]]
-  name = "Recent work"
-  url  = "/work/"
-	weight = 2
-[[menu.main]]
-  name = "Notebooks"
-  url  = "/notebooks/"
-	weight = 3
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
