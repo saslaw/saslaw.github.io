@@ -8,6 +8,25 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saslaw.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Contact</title>
+      <link>https://saslaw.github.io/contact/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://saslaw.github.io/contact/</guid>
+      <description> Name Email Message  Send  </description>
+    </item>
+    
+    <item>
+      <title>Great meeting you!</title>
+      <link>https://saslaw.github.io/meeting/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://saslaw.github.io/meeting/</guid>
+      <description>Thanks for your interest in my work!
+(Link to AGU talk recording)</description>
+    </item>
+    
+    <item>
       <title>Curriculum vitae</title>
       <link>https://saslaw.github.io/cv/</link>
       <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
@@ -52,9 +71,7 @@ Level 0 My very first app uses the RStudio sample Shiny code to create an adjust
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://saslaw.github.io/work/</guid>
-      <description>Presentations Gregory Henkes, ​Mae Saslaw, and Craig Feibel. 2020. Persistent warmth in the Turkana Basin, Kenya, from the Late Miocene until present day.
-abstract
-Kevin Hatton, Troy Rasbury, Gregory Henkes, Mae Saslaw,​ Katie Wooton, Francis Sousa, Stephen Cox, Elena Steponaitis, Sidney R Hemming, Susanne Cote, Paul Northrup, Isaiah Nengo, Theodore Present, Patricia Princehouse, James B Rossie and Ryan Tappero. 2020. U-Pb Dating of Oligocene-Miocene Petrified Wood Carbonates from the Turkana Basin, Kenya.</description>
+      <description></description>
     </item>
     
     <item>
