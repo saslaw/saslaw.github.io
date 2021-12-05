@@ -6,6 +6,15 @@
        url('../fonts/merriweather-v13-latin-regular.woff2') format('woff2'),
        url('../fonts/merriweather-v13-latin-regular.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: bold;
+  font-weight: 900;
+  src: local('Merriweather'), local('Merriweather-Bold'),
+       url('../fonts/Merriweather-Black.woff2') format('woff2'),
+}
+
 @font-face {
   font-family: 'Lato';
   font-style: normal;
