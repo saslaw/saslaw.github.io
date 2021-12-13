@@ -7,15 +7,15 @@ aliases = ["/meeting"]
 
 _Thanks for your interest in my work!_
 
-##### My talk: Middle and Late Miocene paleoclimates from clumped isotopes of soil carbonates, Turkana Basin, East Africa.
+##### My talk: Middle and Late Miocene paleoclimates from clumped isotopes of soil carbonates, Turkana Basin, East Africa
 
 - Monday, December 13, 13:23 CST, Convention Center - Room 220-222
 - [abstract](https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/860934)
-- recording
+- [recording](https://eventpilotadmin.com/src/EventPilot/php/scripts/aguvideo.php?clid=aguorg-fm21/PP13A-08_x6j49u&atvid=p860934&cid=AGU21)
 
 ###### References
 
-Almécija, S., Hammond, A. S., Thompson, N. E., Pugh, K. D., Moyà-Solà, S., & Alba, D. M. (2021). Fossil apes and human evolution. _Science_, _372_(6542), eabb4363. [https://doi.org/10.1126/science.abb4363](https://doi.org/10.1126/science.abb4363)
+Almécija, S., Hammond, A. S., Thompson, N. E., Pugh, K. D., Moyà-Solà, S., & Alba, D. M. (2021). Fossil apes and human evolution. _Science_, _372_(6542). [https://doi.org/10.1126/science.abb4363](https://doi.org/10.1126/science.abb4363)
 
 Anyonge, W. (1990). Fauna from a new Lower Miocene locality west of Lake Turkana, Kenya. _Journal of Vertebrate Paleontology_, _11_(3), 378–390. [https://doi.org/10.1080/02724634.1991.10011405](https://doi.org/10.1080/02724634.1991.10011405)
 
