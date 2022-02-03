@@ -1,6 +1,6 @@
 +++
 title = "Curriculum vitae"
-date  = "2021-05-21"
+date  = "2022-02-03"
 layout = "single-page"
 +++
 
@@ -26,24 +26,28 @@ Portland State University Center for Climate and Aerosol Research \
 Summer 2018
 
 ## Teaching
-General Chemistry Recitation Teaching Assistant \
+Guest Lecturer, Climate change and human evolution \
+Stony Brook University Department of Anthropology \
+Spring 2022
+
+Teaching Assistant, General Chemistry Recitation \
 Stony Brook University Department of Chemistry \
 Fall 2020
 
-Stratigraphy and Sedimentology Teaching Assistant \
+Teaching Assistant, Stratigraphy and Sedimentology \
 Stony Brook University Department of Geosciences \
 Spring 2020
 
-Geology Field School Teaching Assistant \
+Teaching Assistant, Geology Field School \
 Turkana Basin Institute and Stony Brook University \
 Fall 2019
 
-Field Geology Teaching Assistant \
+Teaching Assistant, Field Geology \
 Stony Brook University Department of Geosciences \
 Fall 2019
 
 ## Leadership
-Organizer, Graduate Student Employees Union CWA Local 1104 \
+Organizer, CWA Local 1104 \
 2020 – present
 
 Founding Vice Chair, Young Democratic Socialists of America Portland State University \
@@ -51,6 +55,10 @@ Founding Vice Chair, Young Democratic Socialists of America Portland State Unive
 
 Senator, Associated Students of Portland State University \
 Spring 2018
+
+## Publications
+
+Sousa, F. J., Cox, S. E., Hemming, S. R., Rasbury, E. T., Steponaitis, E., Hatton, K., **Saslaw, M.**, Henkes, G., Princehouse, P., Vitek, N. S., Nengo, I. (2022). New Discovery of Oligocene Strata in the Topernawi Formation, Turkana County, Kenya. *Frontiers in Earth Science, 10*. https://doi.org/10.3389/feart.2022.799097
 
 ## Presentations
 
