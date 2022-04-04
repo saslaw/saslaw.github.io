@@ -47,8 +47,8 @@ Stony Brook University Department of Geosciences \
 Fall 2019
 
 ## Leadership
-Organizer, CWA Local 1104 \
-2020 – present
+Organizer, Communications Workers of America Local 1104 \
+2020 – Present
 
 Founding Vice Chair, Young Democratic Socialists of America Portland State University \
 2017 – 2018
@@ -58,7 +58,7 @@ Spring 2018
 
 ## Publications
 
-Sousa, F. J., Cox, S. E., Hemming, S. R., Rasbury, E. T., Steponaitis, E., Hatton, K., **Saslaw, M.**, Henkes, G., Princehouse, P., Vitek, N. S., Nengo, I. (2022). New Discovery of Oligocene Strata in the Topernawi Formation, Turkana County, Kenya. *Frontiers in Earth Science, 10*. https://doi.org/10.3389/feart.2022.799097
+Sousa, F. J., Cox, S. E., Hemming, S. R., Rasbury, E. T., Steponaitis, E., Hatton, K., **Saslaw, M.**, Henkes, G., Princehouse, P., Vitek, N. S., Nengo, I. 2022. New Discovery of Oligocene Strata in the Topernawi Formation, Turkana County, Kenya. *Frontiers in Earth Science, 10*. https://doi.org/10.3389/feart.2022.799097
 
 ## Presentations
 
