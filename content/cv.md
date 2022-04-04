@@ -17,11 +17,13 @@ Pratt Institute
 2009
 
 ## Research
-Graduate Research Assistant, Clumped isotope paleoclimate records from Miocene soil carbonates, Turkana Basin, Kenya \
+Graduate Research Assistant \
+Clumped isotope paleoclimate records from Miocene soil carbonates, Turkana Basin, Kenya \
 Stony Brook University Department of Geosciences \
 Fall 2019 – Present
 
-NSF Research Experience for Undergraduates, Stable isotopes of surface water across Sauvie Island, Oregon \
+NSF Research Experience for Undergraduates \
+Stable isotopes of surface water across Sauvie Island, Oregon \
 Portland State University Center for Climate and Aerosol Research \
 Summer 2018
 
