@@ -30,7 +30,8 @@ Summer 2018
 ## Teaching
 Guest Lecturer, Climate change and human evolution \
 Stony Brook University Department of Anthropology \
-Spring 2022
+Spring 2022 \
+[see lecture slides](https://drive.google.com/file/d/1QL7_x3scgp4lwiI2Z8YvTefKRzGYw12S/view?usp=sharing)
 
 Teaching Assistant, General Chemistry Recitation \
 Stony Brook University Department of Chemistry \
@@ -64,9 +65,12 @@ Sousa, F. J., Cox, S. E., Hemming, S. R., Rasbury, E. T., Steponaitis, E., Hatto
 
 ## Presentations
 
-[**Mae Saslaw**, Gregory Henkes, Catherine Beck, Cynthia Liutkus-Pierce, Craig Feibel, Christian Rowan, Melissa Boyd. 2021. Middle and Late Miocene paleoclimates from clumped isotopes of soil carbonates, Turkana Basin, East Africa.](/agu21)
+[Mae Saslaw, Cynthia Liutkus-Pierce, Gary Stinchcomb, Sara Shedroff, Kevin Uno, Ruth Tweedy, Cat Beck, Craig S Feibel, Ellen Miller, and Gregory Henkes. 2022. Soil carbonate clumped isotope temperatures and paleoenvironmental interpretations from the Miocene of the Turkana Basin, East Africa
+.](/gsa22)
 
-Gregory Henkes, ​**Mae Saslaw**, and Craig Feibel. 2020. Persistent warmth in the Turkana Basin, Kenya, from the Late Miocene until present day. \
+[Mae Saslaw, Gregory Henkes, Catherine Beck, Cynthia Liutkus-Pierce, Craig Feibel, Christian Rowan, Melissa Boyd. 2021. Middle and Late Miocene paleoclimates from clumped isotopes of soil carbonates, Turkana Basin, East Africa.](/agu21)
+
+Gregory Henkes, ​**Mae Saslaw**, and Craig Feibel. 2020. Persistent warmth in the Turkana Basin, Kenya, from the Latse Miocene until present day. \
 [abstract](https://agu.confex.com/agu/fm20/webprogram/Paper730113.html)
 
 Kevin Hatton, Troy Rasbury, Gregory Henkes, **Mae Saslaw**,​ Katie Wooton, Francis Sousa, Stephen Cox, Elena Steponaitis, Sidney R Hemming, Susanne Cote, Paul Northrup, Isaiah Nengo, Theodore Present, Patricia Princehouse, James B Rossie and Ryan Tappero. 2020. U-Pb Dating of Oligocene-Miocene Petrified Wood Carbonates from the Turkana Basin, Kenya. \
@@ -99,3 +103,5 @@ Spring 2019
 Best Undergraduate Poster \
 Sigma Xi Columbia-Willamette Chapter Student Research Symposium \
 Fall 2018
+
+### [download my CV](https://drive.google.com/file/d/153gryNDnCT1-Qh4GuBZFFQcUZ_N3ODZi/view?usp=sharing)
