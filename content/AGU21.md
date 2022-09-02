@@ -1,17 +1,15 @@
 +++
 title = "#AGU21"
-date  = "2021-12-05"
+date  = "2021-12-13"
 layout = "single-page"
 aliases = ["/meeting"]
 +++
-
-_Thanks for your interest in my work!_
 
 ##### My talk: Middle and Late Miocene paleoclimates from clumped isotopes of soil carbonates, Turkana Basin, East Africa
 
 - Monday, December 13, 13:23 CST, Convention Center - Room 220-222
 - [abstract](https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/860934)
-- [recording](https://eventpilotadmin.com/src/EventPilot/php/scripts/aguvideo.php?clid=aguorg-fm21/PP13A-08_x6j49u&atvid=p860934&cid=AGU21)
+- [recording](https://youtu.be/j-iTbOpuVHc)
 
 ###### References
 
