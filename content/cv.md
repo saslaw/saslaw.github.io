@@ -1,9 +1,8 @@
 +++
 title = "Curriculum vitae"
-date  = "2022-09-02"
+date  = "2022-11-29"
 layout = "single-page"
 +++
-
 ## Education
 Expected 2024: Doctor of Philosophy, Geosciences \
 Stony Brook University
@@ -30,8 +29,7 @@ Summer 2018
 ## Teaching
 Guest Lecturer, Climate change and human evolution \
 Stony Brook University Department of Anthropology \
-Spring 2022 \
-[lecture slides](https://drive.google.com/file/d/1QL7_x3scgp4lwiI2Z8YvTefKRzGYw12S/view?usp=sharing)
+Spring 2022 
 
 Teaching Assistant, General Chemistry Recitation \
 Stony Brook University Department of Chemistry \
@@ -49,34 +47,29 @@ Teaching Assistant, Field Geology \
 Stony Brook University Department of Geosciences \
 Fall 2019
 
-## Leadership
-Organizer, Communications Workers of America Local 1104 \
-2020 – Present
-
-Founding Vice Chair, Young Democratic Socialists of America Portland State University \
-2017 – 2018
-
-Senator, Associated Students of Portland State University \
-Spring 2018
-
 ## Publications
+Sousa, F.J., Cox, S.E., Hemming, S.R., Rasbury, E.T., Steponaitis, E., Hatton, K., **Saslaw, M.**, Henkes, G., Princehouse, P., Vitek, N.S., Nengo, I. 2022. New Discovery of Oligocene Strata in the Topernawi Formation, Turkana County, Kenya. *Frontiers in Earth Science, 10*. https://doi.org/10.3389/feart.2022.799097
 
-Sousa, F. J., Cox, S. E., Hemming, S. R., Rasbury, E. T., Steponaitis, E., Hatton, K., **Saslaw, M.**, Henkes, G., Princehouse, P., Vitek, N. S., Nengo, I. 2022. New Discovery of Oligocene Strata in the Topernawi Formation, Turkana County, Kenya. *Frontiers in Earth Science, 10*. https://doi.org/10.3389/feart.2022.799097
+Justine Modica, **Mae Saslaw**, John Klecker, Alex Miller, Surabhi Balachander, Jeremy Glover, and Glenn Houlihan. 2021. [Graduate Student Workers on the Rise: A forum on graduate student organizing and the future of academic labor.](https://www.aaup.org/article/graduate-student-workers-rise) *Academe, 107(2).*
 
 ## Presentations
+**Saslaw, M.**, Liutkus-Pierce, C., Stinchcomb, G., Shedroff, S., Uno, K.T, Tweedy, R., Beck, C., Feibel, C., Miller, E., Henkes, G. 2022. Soil carbonate clumped isotope temperatures and paleoenvironmental interpretations from the Miocene of the Turkana Basin, East Africa. Geological Society of America *Abstracts with Programs*, v. 54, no. 5. https://doi.org/10.1130/abs/2022AM-382365
 
-[Mae Saslaw, Cynthia Liutkus-Pierce, Gary Stinchcomb, Sara Shedroff, Kevin Uno, Ruth Tweedy, Cat Beck, Craig S Feibel, Ellen Miller, and Gregory Henkes. 2022. Soil carbonate clumped isotope temperatures and paleoenvironmental interpretations from the Miocene of the Turkana Basin, East Africa.](/gsa22)
+Stinchcomb, G, Liutkus-Pierce, C., Beck, C., **Saslaw, M.**, Shedroff, S., Minya, A., Winget, M., Tweedy, R., Rowan, C.M., Mana, S., Feibel, C., Henkes, G., Uno, K.T. 2022. Early Miocene climate and landscape change inferred from paleosols at Loperot, West Turkana, Kenya. Geological Society of America *Abstracts with Programs*, v. 54, no. 5. http://dx.doi.org/10.1130/abs/2022AM-383126
 
-[Mae Saslaw, Gregory Henkes, Catherine Beck, Cynthia Liutkus-Pierce, Craig Feibel, Christian Rowan, Melissa Boyd. 2021. Middle and Late Miocene paleoclimates from clumped isotopes of soil carbonates, Turkana Basin, East Africa.](/agu21)
+**Saslaw, M.**, Henkes, G., Beck, C., Liutkus-Pierce, C., Feibel, C., Rowan, C.M., Boyd, M. 2021. Middle and Late Miocene paleoclimates from clumped isotopes of soil carbonates, Turkana Basin, East Africa. American Geophysical Union Fall Meeting. https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/860934.
 
-**Mae Saslaw** and John Bershaw. 2018. Mixing of the Willamette and Columbia Rivers across Sauvie Island, Oregon based on stable isotopes (δ​18O and δD) of surface water.
+Jimenez, A., Bershaw, J., Gall, S., **Saslaw, M.** 2021. Using Isotope Tracers of Meteoric Water to Investigate the Effects of Hydraulic Restoration on Water Flux Across a Large River Island. American Geophysical Union Fall Meeting. https://ui.adsabs.harvard.edu/abs/2021AGUFMPP15B0919J/abstract
 
-## Culture & Politics
+Jimenez, A., Bershaw, J., Gall, S., **Saslaw, M.** 2021. Investigating the effects of hydrologic restoration on water flux across Sauvie Island, Oregon. Geological Society of America *Abstracts with Programs*, v. 53, no. 6. http://dx.doi.org/10.1130/abs/2021AM-369977
 
-Justine Modica, **Mae Saslaw**, John Klecker, Alex Miller, Surabhi Balachander, Jeremy Glover, and Glenn Houlihan. 2021. [Graduate Student Workers on the Rise: A forum on graduate student organizing and the future of academic labor.](https://www.aaup.org/article/graduate-student-workers-rise) Academe, 107(2).
+Henkes, G., **Saslaw, M.**, Feibel, C. 2020. Persistent warmth in the Turkana Basin, Kenya, from the Late Miocene until present day. American Geophysical Union Fall Meeting. https://ui.adsabs.harvard.edu/abs/2020AGUFMPP0010015H/abstract
+
+Hatton, K., Rasbury, T., Henkes, G., **Saslaw, M.**, Wooton, K., Sousa, F., Cox, S., Steponaitis, E., Hemming, S.R., Cote, S., Northrup, P., Nengo, I., Present, T., Princehouse, P., Rossie, J.B., Tappero, R. 2020. U-Pb Dating of Oligocene-Miocene Petrified Wood Carbonates from the Turkana Basin, Kenya. American Geophysical Union Fall Meeting. https://ui.adsabs.harvard.edu/abs/2020AGUFMPP0080015H/abstract
+
+**Mae Saslaw** and John Bershaw. 2018. Mixing of the Willamette and Columbia Rivers across Sauvie Island, Oregon based on stable isotopes (δ​18O and δD) of surface water. American Geophysical Union Fall Meeting.
 
 ## Awards
-
 Excellence in Teaching Award \
 Stony Brook University Department of Geosciences \
 2021
@@ -89,7 +82,7 @@ Pieper Merit Award \
 Stony Brook University Graduate School \
 Fall 2019
 
-Best Overall Poster \
+Best Poster \
 Association of Engineering Geologists Oregon Chapter Student Poster Night \
 Spring 2019
 
@@ -97,4 +90,24 @@ Best Undergraduate Poster \
 Sigma Xi Columbia-Willamette Chapter Student Research Symposium \
 Fall 2018
 
-### [download my CV](https://drive.google.com/file/d/153gryNDnCT1-Qh4GuBZFFQcUZ_N3ODZi/view?usp=sharing)
+## Leadership
+Organizer, Communications Workers of America Local 1104 \
+2020 – Present
+
+Founding Vice Chair, Young Democratic Socialists of America Portland State University \
+2017 – 2018
+
+Senator, Associated Students of Portland State University \
+Spring 2018
+
+## Professional Organizations
+International Society of Nonbinary Scientists	\
+2021 – Present
+
+Geological Society of America	\
+2019 – Present
+
+American Geophysical Union \
+2018 – Present
+
+### [download](https://drive.google.com/file/d/1Fm2PP7Bn7pw7vP9xTZLmzgEUppheHqAS/view?usp=sharing)
