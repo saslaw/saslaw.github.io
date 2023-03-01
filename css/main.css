@@ -5,15 +5,15 @@
  */
 /* Body */
 html {
-  font-size: 62.5%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; }
+  font-size: 62.5%; 
+  font-family: 'Bodoni* 14', Bodoni MT, Didot, Garamond, Times New Roman, serif; }
 
 body {
   font-size: 1.8rem;
   line-height: 1.618;
   max-width: 38em;
   margin: auto;
-  color: rgba(0, 0, 0, 0.85);
+  color: #291811;
   background-color: #ffffff;
   padding: 13px; }
 
@@ -27,7 +27,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-family: 'Bodoni* 14', Bodoni MT, Didot, Garamond, Times New Roman, serif; 
   font-weight: 700;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   word-break: break-word; }
 
 h1 {
-  font-size: 2.35em; }
+  font-size: 2.15em; }
 
 h2 {
   font-size: 2.00em; }
@@ -62,16 +62,16 @@ small, sub, sup {
   font-size: 75%; }
 
 hr {
-  border-color: #3b22ea; }
+  border-color: #7CC5C4; }
 
 a {
   text-decoration: none;
-  color: #3b22ea; }
+  color: rgb(78, 156, 182); }
   a:hover {
     color: #22216E;
     border-bottom: 2px solid rgba(0, 0, 0, 0.85); }
   a:visited {
-    color: #2913c6; }
+    color: #47a; }
 
 ul {
   padding-left: 1.4em;
