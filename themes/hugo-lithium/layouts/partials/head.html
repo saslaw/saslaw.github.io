@@ -26,9 +26,11 @@
 <meta property="keywords" content ="{{ delimit .Keywords ", " }}">
 {{ end }}
 
-{{ partial "head_highlightjs" . }}
-<link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" media="all">
+<!-- {{ partial "head_highlightjs" . }} -->
+<!-- <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" media="all"> -->
 <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" media="all">
+<link rel="stylesheet" href="https://indestructibletype.com/fonts/Bodoni/Bodoni.css" type="text/css" charset="utf-8" />
+
 {{ range .Site.Params.customCSS }}
 <link rel="stylesheet" href="{{ . | relURL }}">
 {{ end }}
