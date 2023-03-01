@@ -1,6 +1,6 @@
 +++
 title = "Curriculum vitae"
-date  = "2022-11-29"
+date  = "2023-03-01"
 layout = "single-page"
 +++
 ## Education
@@ -29,7 +29,7 @@ Summer 2018
 ## Teaching
 Guest Lecturer, Climate change and human evolution \
 Stony Brook University Department of Anthropology \
-Spring 2022 
+Spring 2022 & 2023
 
 Teaching Assistant, General Chemistry Recitation \
 Stony Brook University Department of Chemistry \
@@ -70,6 +70,10 @@ Hatton, K., Rasbury, T., Henkes, G., **Saslaw, M.**, Wooton, K., Sousa, F., Cox,
 **Mae Saslaw** and John Bershaw. 2018. Mixing of the Willamette and Columbia Rivers across Sauvie Island, Oregon based on stable isotopes (δ​18O and δD) of surface water. American Geophysical Union Fall Meeting.
 
 ## Awards
+Distinguished Travel Award \
+Stony Brook University Graduate Student Organization
+2022 
+
 Excellence in Teaching Award \
 Stony Brook University Department of Geosciences \
 2021
