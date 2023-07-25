@@ -48,11 +48,15 @@ Stony Brook University Department of Geosciences \
 Fall 2019
 
 ## Publications
+Jimenez, A., Bershaw, J., **Saslaw, M.**, Gall, S., Rahalski, E. 2023. Evaluating the Efficacy of Manmade Canals at Maintaining Lake Habitats for Salmon and Birds Using Seasonal Variations in Isotopes of Meteoric Water. ESS Open Archive. https://doi.org/10.22541/essoar.168926403.34465563/v1
+
 Sousa, F.J., Cox, S.E., Hemming, S.R., Rasbury, E.T., Steponaitis, E., Hatton, K., **Saslaw, M.**, Henkes, G., Princehouse, P., Vitek, N.S., Nengo, I. 2022. New Discovery of Oligocene Strata in the Topernawi Formation, Turkana County, Kenya. *Frontiers in Earth Science, 10*. https://doi.org/10.3389/feart.2022.799097
 
 Justine Modica, **Mae Saslaw**, John Klecker, Alex Miller, Surabhi Balachander, Jeremy Glover, and Glenn Houlihan. 2021. [Graduate Student Workers on the Rise: A forum on graduate student organizing and the future of academic labor.](https://www.aaup.org/article/graduate-student-workers-rise) *Academe, 107(2).*
 
 ## Presentations
+Bershaw, J., Jimenez, A., Greenwood, C., Petersen, N., **Saslaw, M.**, Mygatt, C. 2023. Stable Isotopes of Modern Water (δ2H and δ18O) across the Pacific Northwest, USA: A Framework for Understanding Past, Present, and Future Climate. Goldschmidt Abstracts. 
+
 **Saslaw, M.**, Liutkus-Pierce, C., Stinchcomb, G., Shedroff, S., Uno, K.T, Tweedy, R., Beck, C., Feibel, C., Miller, E., Henkes, G. 2022. Soil carbonate clumped isotope temperatures and paleoenvironmental interpretations from the Miocene of the Turkana Basin, East Africa. Geological Society of America *Abstracts with Programs*, v. 54, no. 5. https://doi.org/10.1130/abs/2022AM-382365
 
 Stinchcomb, G, Liutkus-Pierce, C., Beck, C., **Saslaw, M.**, Shedroff, S., Minya, A., Winget, M., Tweedy, R., Rowan, C.M., Mana, S., Feibel, C., Henkes, G., Uno, K.T. 2022. Early Miocene climate and landscape change inferred from paleosols at Loperot, West Turkana, Kenya. Geological Society of America *Abstracts with Programs*, v. 54, no. 5. http://dx.doi.org/10.1130/abs/2022AM-383126
@@ -69,7 +73,18 @@ Hatton, K., Rasbury, T., Henkes, G., **Saslaw, M.**, Wooton, K., Sousa, F., Cox,
 
 **Mae Saslaw** and John Bershaw. 2018. Mixing of the Willamette and Columbia Rivers across Sauvie Island, Oregon based on stable isotopes (δ​18O and δD) of surface water. American Geophysical Union Fall Meeting.
 
+## Professional Activities
+Co-Convener, Exploring changes in climate, flora, and fauna of Africa through the Cenozoic	
+Geological Society of America Connects, Pittsburgh, PA	2023
+
+Participant, Preparing for an Academic Career in the Geosciences
+National Association of Geoscience Teachers Earth Educators’ Rendezvous	2023
+
 ## Awards
+Three Minute Thesis Finalist \	
+Stony Brook University 
+2023
+
 Distinguished Travel Award \
 Stony Brook University Graduate Student Organization
 2022 
@@ -98,6 +113,10 @@ Fall 2018
 Organizer, Communications Workers of America Local 1104 \
 2020 – Present
 
+Graduate Student Liaison \
+Department of Geosciences, Stony Brook University
+2021 – 2023
+
 Founding Vice Chair, Young Democratic Socialists of America Portland State University \
 2017 – 2018
 
@@ -114,4 +133,4 @@ Geological Society of America	\
 American Geophysical Union \
 2018 – Present
 
-### [download](https://drive.google.com/file/d/1Fm2PP7Bn7pw7vP9xTZLmzgEUppheHqAS/view?usp=sharing)
+### [download](https://drive.google.com/file/d/1L5--zqbZFcar_HUqIax_I6_vme3HDy1Q/view?usp=sharing)
