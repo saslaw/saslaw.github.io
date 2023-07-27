@@ -81,7 +81,7 @@ Participant, Preparing for an Academic Career in the Geosciences
 National Association of Geoscience Teachers Earth Educators’ Rendezvous	2023
 
 ## Awards
-Three Minute Thesis Finalist \	
+Three Minute Thesis Finalist \
 Stony Brook University 
 2023
 
