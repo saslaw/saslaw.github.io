@@ -74,8 +74,8 @@ Hatton, K., Rasbury, T., Henkes, G., **Saslaw, M.**, Wooton, K., Sousa, F., Cox,
 **Mae Saslaw** and John Bershaw. 2018. Mixing of the Willamette and Columbia Rivers across Sauvie Island, Oregon based on stable isotopes (δ​18O and δD) of surface water. American Geophysical Union Fall Meeting.
 
 ## Professional Activities
-Co-Convener, Exploring changes in climate, flora, and fauna of Africa through the Cenozoic	
-Geological Society of America Connects, Pittsburgh, PA	2023
+Co-Convener, Exploring changes in climate, flora, and fauna of Africa through the Cenozoic	\
+Geological Society of America Connects, Pittsburgh, PA	2023 \
 
 Participant, Preparing for an Academic Career in the Geosciences
 National Association of Geoscience Teachers Earth Educators’ Rendezvous	2023
