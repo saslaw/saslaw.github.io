@@ -11,9 +11,4 @@ _Thanks for your interest in my work! See more presentations from the Turkana Mi
 
 Coauthors: Daeun Lee, Chris J. Poulsen, Cynthia M. Liutkus-Pierce, Gary E. Stinchcomb, Sara Shedroff, Cat Beck, Craig S. Feibel, Ellen Miller, Gregory A. Henkes
 
-#### Methods
-
-_paste from chapter 2 draft_ 
-
-#### References 
 
