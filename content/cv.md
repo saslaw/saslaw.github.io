@@ -1,6 +1,6 @@
 +++
 title = "Curriculum vitae"
-date  = "2023-08-06"
+date  = "2023-10-26"
 layout = "single-page"
 +++
 ## Education
@@ -69,7 +69,7 @@ Bershaw, J., Jimenez, A., Greenwood, C., Petersen, N., **Saslaw, M.**, Mygatt, C
 
 **Saslaw, M.**, Liutkus-Pierce, C., Stinchcomb, G., Shedroff, S., Uno, K.T, Tweedy, R., Beck, C., Feibel, C., Miller, E., Henkes, G. 2022. Soil carbonate clumped isotope temperatures and paleoenvironmental interpretations from the Miocene of the Turkana Basin, East Africa. Geological Society of America *Abstracts with Programs*, v. 54, no. 5. https://doi.org/10.1130/abs/2022AM-382365
 
-Stinchcomb, G, Liutkus-Pierce, C., Beck, C., **Saslaw, M.**, Shedroff, S., Minya, A., Winget, M., Tweedy, R., Rowan, C.M., Mana, S., Feibel, C., Henkes, G., Uno, K.T. 2022. Early Miocene climate and landscape change inferred from paleosols at Loperot, West Turkana, Kenya. Geological Society of America *Abstracts with Programs*, v. 54, no. 5. http://dx.doi.org/10.1130/abs/2022AM-383126
+Stinchcomb, G., Liutkus-Pierce, C., Beck, C., **Saslaw, M.**, Shedroff, S., Minya, A., Winget, M., Tweedy, R., Rowan, C.M., Mana, S., Feibel, C., Henkes, G., Uno, K.T. 2022. Early Miocene climate and landscape change inferred from paleosols at Loperot, West Turkana, Kenya. Geological Society of America *Abstracts with Programs*, v. 54, no. 5. http://dx.doi.org/10.1130/abs/2022AM-383126
 
 **Saslaw, M.**, Henkes, G., Beck, C., Liutkus-Pierce, C., Feibel, C., Rowan, C.M., Boyd, M. 2021. Middle and Late Miocene paleoclimates from clumped isotopes of soil carbonates, Turkana Basin, East Africa. American Geophysical Union Fall Meeting. https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/860934.
 
@@ -143,4 +143,4 @@ Geological Society of America	\
 American Geophysical Union \
 2018 – Present
 
-### [download](https://drive.google.com/file/d/1L5--zqbZFcar_HUqIax_I6_vme3HDy1Q/view?usp=sharing)
+### [download](https://drive.google.com/file/d/1xQTIXrUMH2sbz40P8zy7XvEqAYTntaTF/view?usp=sharing)
