@@ -55,6 +55,16 @@ Sousa, F.J., Cox, S.E., Hemming, S.R., Rasbury, E.T., Steponaitis, E., Hatton, K
 Justine Modica, **Mae Saslaw**, John Klecker, Alex Miller, Surabhi Balachander, Jeremy Glover, and Glenn Houlihan. 2021. [Graduate Student Workers on the Rise: A forum on graduate student organizing and the future of academic labor.](https://www.aaup.org/article/graduate-student-workers-rise) *Academe, 107(2).*
 
 ## Presentations
+**Saslaw, M.**, Lee, D., Poulsen, C., Liutkus-Pierce, C., Stinchcomb, G., Shedroff, S., Beck, C., Feibel, C., Miller, E., Henkes, G. 2023. Insights from ~17 Ma soil carbonate stable isotopes and GCM results in the Turkana Basin, Kenya. Geological Society of America *Abstracts with Programs*, v. 55, no. 6. https://doi.org/10.1130/abs/2023AM-394790 
+
+Mengesha, M., Bedaso, Z., Beverly, E., Cerling, T., Henkes, G., Quade, J., Rogers, M., **Saslaw, M.**, Semaw, S., Levin, N. 2023. Assessing water stress using triple oxygen isotopes in soil carbonates in the Awash and Turkana regions of eastern Africa during the Pliocene and Pleistocene. Geological Society of America *Abstracts with Programs*, v. 55, no. 6. https://doi.org/10.1130/abs/2023AM-394817
+
+Esber, R., Stinchcomb, G., Beck, C., Mana, S., Batlay, A., Minya, A., **Saslaw, M.**, Beverly, E., Feibel, C., Henkes, G. 2023. Paleoenvironmental reconstuction of Locherangan, a Miocene fossil bearing locality, Turkana Basin, Kenya. Geological Society of America *Abstracts with Programs*, v. 55, no. 6. https://doi.org/10.1130/abs/2023AM-394251 
+
+Batlay, A., Stinchcomb, G., Rowan, J., Beck, C., **Saslaw, M.**, Henkes, G. 2023. Exploring post-depositional processes in Late Miocene paleosols at Lothagam, Turkana Basin, Kenya. Geological Society of America *Abstracts with Programs*, v. 55, no. 6. https://doi.org/10.1130/abs/2023AM-394334
+
+Hatton, K., Rasbury, T., Henkes, G., **Saslaw, M.**, Wooton, K., Hemming, S., Cox, S., Sousa, F., Rossie, J., Cote, S., Russo, G., Miller, E., Kappelman, J. 2023. Hydrothermal carbonates from Turkana, Kenya, preserve evidence of an unusual Middle Miocene thermal fluid pulse. Geological Society of America *Abstracts with Programs*, v. 55, no. 6. https://doi.org/10.1130/abs/2023AM-395260 
+
 Bershaw, J., Jimenez, A., Greenwood, C., Petersen, N., **Saslaw, M.**, Mygatt, C. 2023. Stable Isotopes of Modern Water (δ2H and δ18O) across the Pacific Northwest, USA: A Framework for Understanding Past, Present, and Future Climate. Goldschmidt Abstracts. 
 
 **Saslaw, M.**, Liutkus-Pierce, C., Stinchcomb, G., Shedroff, S., Uno, K.T, Tweedy, R., Beck, C., Feibel, C., Miller, E., Henkes, G. 2022. Soil carbonate clumped isotope temperatures and paleoenvironmental interpretations from the Miocene of the Turkana Basin, East Africa. Geological Society of America *Abstracts with Programs*, v. 54, no. 5. https://doi.org/10.1130/abs/2022AM-382365

@@ -36,22 +36,20 @@ h1, h2, h3, h4, h5, h6 {
   -ms-word-break: break-all;
   word-break: break-word; }
 
-h1 {
-  font-size: 2.15em; }
 
-h2 {
+h1 {
   font-size: 2.00em; }
 
-h3 {
+h2 {
   font-size: 1.75em; }
 
-h4 {
+h3 {
   font-size: 1.5em; }
 
-h5 {
+h4 {
   font-size: 1.25em; }
 
-h6 {
+h5 {
   font-size: 1em; }
 
 p {
