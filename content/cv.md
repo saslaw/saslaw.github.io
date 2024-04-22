@@ -1,6 +1,6 @@
 +++
 title = "Curriculum vitae"
-date  = "2023-10-26"
+date  = "2024-04-22"
 layout = "single-page"
 +++
 ## Education
@@ -27,6 +27,10 @@ Portland State University Center for Climate and Aerosol Research \
 Summer 2018
 
 ## Teaching
+Guest Lecturer, Isotope Geochemistry \
+Stony Brook University Department of Geosciences \
+Spring 2023 & 2024
+
 Guest Lecturer, Climate change and human evolution \
 Stony Brook University Department of Anthropology \
 Spring 2022 & 2023
