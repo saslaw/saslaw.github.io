@@ -11,11 +11,7 @@
 
     {{ .Date.Format "January 2, 2006" }}
 
-    <div>
-      {{ with .Params.tags }}
-      Tags: <a href="{{ "tags" | absURL}}{{ . | urlize }}">{{ . }}</a>
-        {{ end }}
-    </div>
+
 
 
     {{ if eq .Section "post" }}
