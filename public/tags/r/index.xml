@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Mae Saslaw</title>
-    <link>http://localhost:1313/tags/r/</link>
+    <link>https://saslaw.github.io/tags/r/</link>
     <description>Recent content in R on Mae Saslaw</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://saslaw.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shiny apps with GNIP data</title>
-      <link>http://localhost:1313/notebooks/shiny-apps-with-gnip-data/</link>
+      <link>https://saslaw.github.io/notebooks/shiny-apps-with-gnip-data/</link>
       <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notebooks/shiny-apps-with-gnip-data/</guid>
+      <guid>https://saslaw.github.io/notebooks/shiny-apps-with-gnip-data/</guid>
       <description>(in progress)&#xA;This is a collection of links to basic Shiny apps using data from the Global Networks of Isotopes in Precipitaion (IAEA/WMO, 2020). Apps are hosted on shinyapps.io, and some of the code can be found across my GitHub repos.&#xA;Level 0 My very first app uses the RStudio sample Shiny code to create an adjustable histogram, with data from GNIP instead of “Old Faithful” sample data. This demonstrates a deployed app using data from a .</description>
     </item>
   </channel>

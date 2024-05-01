@@ -1,6 +1,6 @@
 +++
 title = "Curriculum vitae"
-date  = "2024-04-22"
+date  = "2024-05-01"
 layout = "single-page"
 +++
 ## Education

@@ -6,7 +6,7 @@
 /* Body */
 html {
   font-size: 62.5%; 
-  font-family: 'Bodoni* 14', Bodoni MT, Didot, Garamond, Times New Roman, serif; }
+  font-family: Arial, Helvetica, sans-serif; }
 
 body {
   font-size: 1.8rem;
@@ -27,7 +27,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
-  font-family: 'Bodoni* 14', Bodoni MT, Didot, Garamond, Times New Roman, serif; 
+  font-family: Arial, Helvetica, sans-serif; 
   font-weight: 700;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
@@ -64,12 +64,12 @@ hr {
 
 a {
   text-decoration: none;
-  color: rgb(78, 156, 182); }
+  color: #2C9ADF; }
   a:hover {
     color: #22216E;
     border-bottom: 2px solid rgba(0, 0, 0, 0.85); }
   a:visited {
-    color: #47a; }
+    color: #79EAFD; }
 
 ul {
   padding-left: 1.4em;
