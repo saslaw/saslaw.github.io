@@ -52,6 +52,9 @@ Stony Brook University Department of Geosciences \
 Fall 2019
 
 ## Publications
+
+**Saslaw, M.**, Yang, D., Lee, D., Poulsen, C. J., & Henkes, G. A. 2024. An Isotope Mass Balance Analysis of Evaporative Loss From Lake Turkana, Kenya Using δ18O and δD of Natural Waters. Water Resources Research, 60(6), e2023WR036076. https://doi.org/10.1029/2023WR036076 
+
 Jimenez, A., Bershaw, J., **Saslaw, M.**, Gall, S., Rahalski, E. 2023. Evaluating the Efficacy of Manmade Canals at Maintaining Lake Habitats for Salmon and Birds Using Seasonal Variations in Isotopes of Meteoric Water. ESS Open Archive. https://doi.org/10.22541/essoar.168926403.34465563/v1
 
 Sousa, F.J., Cox, S.E., Hemming, S.R., Rasbury, E.T., Steponaitis, E., Hatton, K., **Saslaw, M.**, Henkes, G., Princehouse, P., Vitek, N.S., Nengo, I. 2022. New Discovery of Oligocene Strata in the Topernawi Formation, Turkana County, Kenya. *Frontiers in Earth Science, 10*. https://doi.org/10.3389/feart.2022.799097
@@ -149,4 +152,4 @@ Geological Society of America	\
 American Geophysical Union \
 2018 – Present
 
-### [download](https://drive.google.com/file/d/1xQTIXrUMH2sbz40P8zy7XvEqAYTntaTF/view?usp=sharing)
+### [download](https://drive.google.com/file/d/1Q6YSmubm5JgSwejq-h_BZYFopxJeU1ZW/view?usp=sharing)
