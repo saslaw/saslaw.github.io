@@ -4,7 +4,7 @@ date  = "2024-05-01"
 layout = "single-page"
 +++
 ## Education
-Expected 2024: Doctor of Philosophy, Geosciences \
+Expected 2025: Doctor of Philosophy, Geosciences \
 Stony Brook University
 
 Bachelor of Science, Geology \
@@ -62,7 +62,7 @@ Sousa, F.J., Cox, S.E., Hemming, S.R., Rasbury, E.T., Steponaitis, E., Hatton, K
 Justine Modica, **Mae Saslaw**, John Klecker, Alex Miller, Surabhi Balachander, Jeremy Glover, and Glenn Houlihan. 2021. [Graduate Student Workers on the Rise: A forum on graduate student organizing and the future of academic labor.](https://www.aaup.org/article/graduate-student-workers-rise) *Academe, 107(2).*
 
 ## Presentations
-**Saslaw, M.**, Stinchcomb, G., Shedroff, S., Minya, A., Liutkus-Pierce, C., Miller, E., Beck, C., Feibel, C., Henkes, G. 2024. Soil carbonates reveal paleoenvironments characterized by hot temperatures and C3 vegetation in the late Early Miocene, Turkana Basin, Kenya. Presented at the Miocene Climate Workshop: Exploring New Directions in Miocene Earth System Connections, University of Arizona.
+**Saslaw, M.**, Stinchcomb, G., Shedroff, S., Minya, A., Liutkus-Pierce, C., Miller, E., Beck, C., Feibel, C., Henkes, G. 2024. Soil carbonates reveal paleoenvironments characterized by hot temperatures and C3 vegetation in the late Early Miocene, Turkana Basin, Kenya. Miocene Climate Workshop: Exploring New Directions in Miocene Earth System Connections, University of Arizona.
 
 **Saslaw, M.**, Lee, D., Poulsen, C., Liutkus-Pierce, C., Stinchcomb, G., Shedroff, S., Beck, C., Feibel, C., Miller, E., Henkes, G. 2023. Insights from ~17 Ma soil carbonate stable isotopes and GCM results in the Turkana Basin, Kenya. Geological Society of America *Abstracts with Programs*, v. 55, no. 6. https://doi.org/10.1130/abs/2023AM-394790 
 
@@ -152,4 +152,4 @@ Geological Society of America	\
 American Geophysical Union \
 2018 – Present
 
-### [download](https://drive.google.com/file/d/1Q6YSmubm5JgSwejq-h_BZYFopxJeU1ZW/view?usp=sharing)
+### [download](https://drive.google.com/file/d/1Z0uNfAzH3h2DfJjYXtTaJEg7R1nd0YBH/view?usp=sharing)
