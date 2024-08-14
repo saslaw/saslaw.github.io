@@ -92,13 +92,6 @@ Hatton, K., Rasbury, T., Henkes, G., **Saslaw, M.**, Wooton, K., Sousa, F., Cox,
 
 **Mae Saslaw** and John Bershaw. 2018. Mixing of the Willamette and Columbia Rivers across Sauvie Island, Oregon based on stable isotopes (δ​18O and δD) of surface water. American Geophysical Union Fall Meeting.
 
-## Professional Activities
-Co-Convener, Exploring changes in climate, flora, and fauna of Africa through the Cenozoic	\
-Geological Society of America Connects, Pittsburgh, PA	2023 
-
-Participant, Preparing for an Academic Career in the Geosciences
-National Association of Geoscience Teachers Earth Educators’ Rendezvous	2023
-
 ## Awards
 Three Minute Thesis Finalist \
 Stony Brook University 
@@ -133,7 +126,7 @@ Organizer, Communications Workers of America Local 1104 \
 2020 – Present
 
 Graduate Student Liaison \
-Department of Geosciences, Stony Brook University
+Stony Brook University Department of Geosciences \
 2021 – 2023
 
 Founding Vice Chair, Young Democratic Socialists of America Portland State University \
@@ -141,6 +134,13 @@ Founding Vice Chair, Young Democratic Socialists of America Portland State Unive
 
 Senator, Associated Students of Portland State University \
 Spring 2018
+
+## Professional Activities
+Co-Convener, Exploring changes in climate, flora, and fauna of Africa through the Cenozoic	\
+Geological Society of America Connects, Pittsburgh, PA	2023 
+
+Participant, Preparing for an Academic Career in the Geosciences \
+National Association of Geoscience Teachers Earth Educators’ Rendezvous	2023
 
 ## Professional Organizations
 International Society of Nonbinary Scientists	\
@@ -152,4 +152,4 @@ Geological Society of America	\
 American Geophysical Union \
 2018 – Present
 
-### [download](https://drive.google.com/file/d/1Z0uNfAzH3h2DfJjYXtTaJEg7R1nd0YBH/view?usp=sharing)
+### [download](https://drive.google.com/file/d/1FyeI8-MeqecD6KiD-9msNVsPFEceQNcg/view?usp=sharing)
