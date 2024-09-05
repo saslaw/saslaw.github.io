@@ -162,4 +162,4 @@ Hatton, K., Rasbury, T., Henkes, G., **Saslaw, M.**, Wooton, K., Sousa, F., Cox,
 
 **Mae Saslaw** and John Bershaw. 2018. Mixing of the Willamette and Columbia Rivers across Sauvie Island, Oregon based on stable isotopes (δ​18O and δD) of surface water. American Geophysical Union Fall Meeting.
 
-### [download](https://drive.google.com/file/d/1I7_OvfYVPWka7-LyhwPA_43OEBuxXLrH/view?usp=sharing)
+### [download](/images/CV.pdf)
