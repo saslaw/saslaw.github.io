@@ -1,6 +1,6 @@
 +++
 title = "Curriculum vitae"
-date  = "2024-08-25"
+date  = "2024-09-05"
 layout = "single-page"
 +++
 ## Education
@@ -85,12 +85,12 @@ Peer Mentor Program Coordinator \
 Stony Brook University Department of Geosciences \
 2024 – Present
 
-Organizer, Communications Workers of America Local 1104 \
-2020 – Present
-
 Graduate Seminar Coordinator \
 Stony Brook University Department of Geosciences \
-2022 – 2024
+2023 – 2024
+
+Organizer, Communications Workers of America Local 1104 \
+2020 – Present
 
 Graduate Student Liaison \
 Stony Brook University Department of Geosciences \
@@ -162,4 +162,4 @@ Hatton, K., Rasbury, T., Henkes, G., **Saslaw, M.**, Wooton, K., Sousa, F., Cox,
 
 **Mae Saslaw** and John Bershaw. 2018. Mixing of the Willamette and Columbia Rivers across Sauvie Island, Oregon based on stable isotopes (δ​18O and δD) of surface water. American Geophysical Union Fall Meeting.
 
-### [download](https://drive.google.com/file/d/1ZbBgedJ18PfogS06zXg8Xl4OUxj5wePr/view?usp=sharing)
+### [download](https://drive.google.com/file/d/1I7_OvfYVPWka7-LyhwPA_43OEBuxXLrH/view?usp=sharing)
