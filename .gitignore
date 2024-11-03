@@ -4,3 +4,5 @@
 .Ruserdata
 themes/hugo-lithium/static/fonts/.DS_Store
 public/.DS_Store
+
+/.quarto/
