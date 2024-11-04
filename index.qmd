@@ -29,13 +29,13 @@ figcaption{
 ::: {layout="[ 33, 33, 33 ]"}
 ::: {#water}
 ### Stable Isotope Hydrology
-![Evaporation modeling using measurements of oxygen and hydrogen in [Lake Turkana, Kenya](https://doi.org/10.1029/2023WR036076) and [Oregon, USA](https://doi.org/10.22541/essoar.168926403.34465563/v1)](images/rainbow-circle.png){fig-alt="a photo taken on the shore of Lake Turkana with a rainbow on the horizon" fig-align="center"}
+![Evaporation modeling using measurements of oxygen and hydrogen in [Lake Turkana, Kenya](https://doi.org/10.1029/2023WR036076) and [Oregon, USA](https://doi.org/10.22541/essoar.168926403.34465563/v1)](images/schematic-circle.png){fig-alt="schematic diagram showing lake water, wind, raindrops, clouds, and a thermometer" fig-align="center"}
 :::
 
 ::: {#pedcarbs}
 ### Soil Carbonate Geochemistry
 ![Clumped isotope paleothermometry and novel methods for analyzing diagenetically altered samples  
-(_in prep_)](images/segmentation-circle.png){fig-alt="a petrographic image of a soil carbonate sample with colored regions showing pixel classification" fig-align="center"} 
+(_in prep_)](images/sem-circle.png){fig-alt="as SEM image of a soil carbonate sample with spots highlighted" fig-align="center"} 
 :::
 
 ::: {#Miocene}

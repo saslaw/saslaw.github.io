@@ -25,6 +25,7 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./images/hammer.png" rel="icon" type="image/png">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -81,6 +82,20 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/saslaw"> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0003-0169-6487"> 
+<span class="menu-text">ORCID</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=hgpd7fMAAAAJ&amp;hl=en"> 
+<span class="menu-text">Google Scholar</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -151,7 +166,7 @@ figcaption{
 <h3 class="anchored" data-anchor-id="stable-isotope-hydrology">Stable Isotope Hydrology</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/rainbow-circle.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="a photo taken on the shore of Lake Turkana with a rainbow on the horizon"></p>
+<p><img src="images/schematic-circle.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="schematic diagram showing lake water, wind, raindrops, clouds, and a thermometer"></p>
 <figcaption>Evaporation modeling using measurements of oxygen and hydrogen in <a href="https://doi.org/10.1029/2023WR036076">Lake Turkana, Kenya</a> and <a href="https://doi.org/10.22541/essoar.168926403.34465563/v1">Oregon, USA</a></figcaption>
 </figure>
 </div>
@@ -162,7 +177,7 @@ figcaption{
 <h3 class="anchored" data-anchor-id="soil-carbonate-geochemistry">Soil Carbonate Geochemistry</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/segmentation-circle.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="a petrographic image of a soil carbonate sample with colored regions showing pixel classification"></p>
+<p><img src="images/sem-circle.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="as SEM image of a soil carbonate sample with spots highlighted"></p>
 <figcaption>Clumped isotope paleothermometry and novel methods for analyzing diagenetically altered samples<br>
 (<em>in prep</em>)</figcaption>
 </figure>
@@ -267,7 +282,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/saslaw\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -603,18 +618,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://github.com/saslaw">
-<p>GitHub</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0003-0169-6487">
-<p>ORCID</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=hgpd7fMAAAAJ&amp;hl=en">
-<p>Google Scholar</p>
+    <a class="nav-link" href="https://quarto.org">
+<p>Made with Quarto</p>
 </a>
   </li>  
 </ul>

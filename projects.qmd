@@ -11,7 +11,7 @@ figure{vertical-align: middle;}
 
 ::: {layout="[ 30, 70 ]" layout-valign="center"}
 ::: {#TMP}
-![](images/TMP-sq.png){fig-alt="a photo of scientists on a 2-3m hill of sediment in the Turkana Basin"}
+![](images/TMP-logo-sq.png){fig-alt="Turkana Miocene Project logo, three circles represent earth, climate, and life aspects of the project"}
 :::
  
 ## [Turkana Miocene Project](https://turkanamiocene.com/)
