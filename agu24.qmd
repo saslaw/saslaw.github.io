@@ -1,18 +1,13 @@
 ---
-title: "See you at AGU24!"
+title: "Three posters on Miocene climate"
+pagetitle: "See you at AGU24!"
 ---
 
-## Presentations
+[![](images/AGU24-TMP.png)](agu24-poster.qmd){fig-alt="Green AGU branded slide with presentation info: Late Early Miocene Climate in the Turkana Basin, Kenya From Multi-Proxy Records and iCESM Results. Wednesday Morning PP31B-0487. Click through for author info." fig-align="center"}
 
-[Late Early Miocene Climate in the Turkana Basin, Kenya From Multi-Proxy Records and iCESM Results](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1549769)\
-**Mae Saslaw**, Daeun Lee, Ruth Tweedy, Daniel R Green, Kevin T Uno, Christopher Poulsen, Gregory A Henkes, and the Turkana Miocene Project\
-_Wednesday morning posters_
+[![](images/AGU24-temp.png)](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1642372){fig-alt="Pink AGU branded slide with presentation info: A new compilation of terrestrial temperatures during the Miocene. Thursday Morning PP41C-0313. Click through for author info." fig-align="center"}
 
-[A new compilation of terrestrial temperatures during the Miocene](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1642372)\
-Lina C Pérez-Angel, Jiawei Da, Andrew G Flynn, Rachel Elizabeth Havranek, Joseph Novak, Ingrid C Romero, **Mae Saslaw**, and Feng Zhu\
-_Thursday morning posters_
+[![](images/AGU24-hydro.png)](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1643128){fig-alt="Blue AGU branded slide with presentation info: Global Terrestrial Hydrologic Change Since the Mid-Miocene Climatic Optimum: A New Compilation of Hydroclimate Proxy Records and Implications for Future Change. Thursday Morning PP41C-0314. Click through for author info." fig-align="center"}
 
-[Global Terrestrial Hydrologic Change Since the Mid-Miocene Climatic Optimum: A New Compilation of Hydroclimate Proxy Records and Implications for Future Change](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1643128)\
-Elena Stiles, Joseph Novak, Bryce Mitsunaga, Vincent Hare, **Mae Saslaw**, Jeremy Rugenstein, Catherine C Beck, Advait Jukar, Sarah George, Daeun Lee, Caroline Strömberg, Kevin T Uno, Lael Vetter, and Feng Zhu\
-_Thursday morning posters_
+
 
