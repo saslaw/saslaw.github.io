@@ -1,0 +1,15 @@
+{
+  "hash": "a08dd6aadb0ee30f471af4e01026e20f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Projects\"\nengine: knitr\n---\n\n::: {.cell}\n<style type=\"text/css\">\nh2{margin: 0;}\n\nfigure{vertical-align: middle;}\n</style>\n:::\n\n\n\n::: {layout=\"[ 30, 70 ]\" layout-valign=\"center\"}\n::: {#TMP}\n![](images/TMP-logo-sq.png){fig-alt=\"Turkana Miocene Project logo, three circles represent earth, climate, and life aspects of the project\"}\n:::\n \n## [Turkana Miocene Project](https://turkanamiocene.com/)\n\nMy PhD research is part of the Turkana Miocene Project, an international, interdisciplinary effort to understand interactions between geologic processes, climate change, and evolution in a critical time and place for Cenozoic climate history. I am producing a stable isotope record from soil carbonates that will extend the record for the Turkana Basin in northern Kenya, while my colleagues develop climate and tectonic models, analyze additional proxy data, and describe new fossils. See the [team blog](https://turkanamiocene.com/blog/) for stories about our work and [follow us on Instagram](https://www.instagram.com/turkanamiocene/). \n:::\n::: {layout=\"[ 30, 70 ]\" layout-valign=\"center\"}\n\n::: {#TMP}\n![](images/lake-map.png){fig-alt=\"figure 1 from the linked paper, a map showing Lake Turkana and water sampling locations\"}\n:::\n## Lake Turkana Water Isotopes\n\n[Our paper in AGU Water Resources Research](https://doi.org/10.1029/2023WR036076) presents stable isotope measurements of meteoric and groundwaters across the Turkana Basin and models evaporation of Lake Turkana, the largest desert lake in the world, using a Bayesian stable isotope mass balance framework. Our results show that regular water collection and inexpensive stable isotope measurements can indicate changes in the lake's inputs and outputs. We established an ongoing sampling program with collaborators at the [Turkana Basin Institute](https://www.turkanabasin.org) and [PERMILab](https://kevinuno.com/permilab) at the [Mpala Research Centre](https://mpala.org). \nWe also published [precipitation records](https://commons.library.stonybrook.edu/geodata/8) from entries kept at Turkana Basin Institute facilities.\n:::\n\n## Miocene Terrestrial Temperature and Hydroclimate \n\nI am one of many collaborators on two projects to compile terrestrial climate proxy records from the Miocene and develop new models. More details about these projects will be available in 2025.  ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
