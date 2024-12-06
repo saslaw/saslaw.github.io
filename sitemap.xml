@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://saslaw.github.io/cv.html</loc>
-    <lastmod>2024-11-03T20:03:48.832Z</lastmod>
-  </url>
-  <url>
-    <loc>https://saslaw.github.io/index.html</loc>
-    <lastmod>2024-11-04T15:37:35.325Z</lastmod>
-  </url>
-  <url>
-    <loc>https://saslaw.github.io/news.html</loc>
-    <lastmod>2024-11-04T07:37:23.167Z</lastmod>
-  </url>
-  <url>
-    <loc>https://saslaw.github.io/posts/helloworld.html</loc>
-    <lastmod>2024-11-04T07:53:21.973Z</lastmod>
+    <loc>https://saslaw.github.io/agu24.html</loc>
+    <lastmod>2024-11-27T20:47:30.050Z</lastmod>
   </url>
   <url>
     <loc>https://saslaw.github.io/projects.html</loc>
-    <lastmod>2024-11-04T15:42:43.196Z</lastmod>
+    <lastmod>2024-11-27T20:48:25.026Z</lastmod>
   </url>
   <url>
-    <loc>https://saslaw.github.io/agu24.html</loc>
-    <lastmod>2024-11-11T19:06:38.272Z</lastmod>
+    <loc>https://saslaw.github.io/agu24-poster.html</loc>
+    <lastmod>2024-12-06T23:51:29.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://saslaw.github.io/posts/helloworld.html</loc>
+    <lastmod>2024-11-27T20:47:30.073Z</lastmod>
+  </url>
+  <url>
+    <loc>https://saslaw.github.io/news.html</loc>
+    <lastmod>2024-11-27T20:47:30.073Z</lastmod>
+  </url>
+  <url>
+    <loc>https://saslaw.github.io/index.html</loc>
+    <lastmod>2024-11-27T20:48:25.016Z</lastmod>
   </url>
 </urlset>

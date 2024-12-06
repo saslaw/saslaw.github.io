@@ -1,9 +1,0 @@
----
-title: "Hello, world"
-description: "That new blog smell" 
-date: last-modified
-categories:
-    - Quarto
----
-
-I discovered making websites as a stress response the first time I scrolled through themes on Angelfire. It's usually productive, I get to make as many choices as I want, and in times of overwhelming possibility, I always feel like I might need a new website where I'm going. In twenty years I have written a lot of first posts. I am doing it again. 
