@@ -138,10 +138,16 @@ Sousa, F.J., Cox, S.E., Hemming, S.R., Rasbury, E.T., Steponaitis, E., Hatton, K
 Justine Modica, **Mae Saslaw**, John Klecker, Alex Miller, Surabhi Balachander, Jeremy Glover, and Glenn Houlihan. 2021. [Graduate Student Workers on the Rise: A forum on graduate student organizing and the future of academic labor.](https://www.aaup.org/article/graduate-student-workers-rise) *Academe, 107(2).*
 
 ## Presentations
+**Saslaw, M.** , Lee, D., Tweedy, R., Green, D., Uno, K., Poulsen, P., Henkes, G. 2024. Late Early Miocene Climate in the Turkana Basin, Kenya From Multi-Proxy Records and iCESM Results. American Geophysical Union Annual Meeting. [iPoster.](https://agu24.ipostersessions.com/default.aspx?s=1F-3C-42-25-C4-61-76-19-A5-32-E4-60-48-93-C4-E8&guestview=true)
 
-**Saslaw, M.**, Munoz, A., Stinchcomb, G., Minya, A., Shedroff, S., Esber, R., Batlay, A., Liutkus-Pierce, C., Miller, E., Beck, C., Feibel, C., Henkes, G. 2024. Paleoenvironmental Interpretations of Stable Isotopes From Miocene Pedogenic Carbonates with Diagenetic Calcite Components. 9th International Clumped Isotope Workshop, Stony Brook University.
+Pérez-Angel, L., Da, J., Flynn, A., Havranek, R., Novak, J., Romero, I., **Saslaw, M.**, Zhu, F. 2024. A new compilation of terrestrial temperatures during the Miocene. American Geophysical Union Annual Meeting. [Abstract.](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1642372)
 
-**Saslaw, M.**, Stinchcomb, G., Shedroff, S., Minya, A., Liutkus-Pierce, C., Miller, E., Beck, C., Feibel, C., Henkes, G. 2024. Soil carbonates reveal paleoenvironments characterized by hot temperatures and C3 vegetation in the late Early Miocene, Turkana Basin, Kenya. Miocene Climate Workshop: Exploring New Directions in Miocene Earth System Connections, University of Arizona.
+Stiles, E., Novak, J., Mitsunaga, B., Hare, V., **Saslaw, M.**, Rugenstein, J., Beck, C., Jukar, A., George, S., Lee, D., Strömberg, C., Uno, K., Vetter, L., Zhu, F. 2024. Global Terrestrial Hydrologic Change
+Since the Mid-Miocene Climatic Optimum: A New Compilation of Hydroclimate Proxy Records and Implications for Future Change. American Geophysical Union Annual Meeting. [Abstract.](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1643128)
+
+**Saslaw, M.**, Munoz, A., Stinchcomb, G., Minya, A., Shedroff, S., Esber, R., Batlay, A., Liutkus-Pierce, C., Miller, E., Beck, C., Feibel, C., Henkes, G. 2024. Paleoenvironmental Interpretations of Stable Isotopes From Miocene Pedogenic Carbonates with Diagenetic Calcite Components. 9th International Clumped Isotope Workshop, Stony Brook University. <a href="/images/ICIW9-poster-web.pdf" target="_blank">Poster.</a>
+
+**Saslaw, M.**, Stinchcomb, G., Shedroff, S., Minya, A., Liutkus-Pierce, C., Miller, E., Beck, C., Feibel, C., Henkes, G. 2024. Soil carbonates reveal paleoenvironments characterized by hot temperatures and C3 vegetation in the late Early Miocene, Turkana Basin, Kenya. Miocene Climate Workshop: Exploring New Directions in Miocene Earth System Connections, University of Arizona. <a href="/images/Miocene-workshop-poster-web.pdf" target="_blank">Poster.</a>
 
 **Saslaw, M.**, Lee, D., Poulsen, C., Liutkus-Pierce, C., Stinchcomb, G., Shedroff, S., Beck, C., Feibel, C., Miller, E., Henkes, G. 2023. Insights from \~17 Ma soil carbonate stable isotopes and GCM results in the Turkana Basin, Kenya. Geological Society of America *Abstracts with Programs*, v. 55, no. 6. <https://doi.org/10.1130/abs/2023AM-394790>
 
