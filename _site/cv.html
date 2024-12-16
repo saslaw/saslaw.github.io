@@ -83,18 +83,22 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./posts.html"> 
+<span class="menu-text">Updates</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/saslaw"> 
+    <a class="nav-link" href="https://github.com/saslaw" target="blank"> 
 <span class="menu-text">GitHub</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0003-0169-6487"> 
+    <a class="nav-link" href="https://orcid.org/0000-0003-0169-6487" target="blank"> 
 <span class="menu-text">ORCID</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=hgpd7fMAAAAJ&amp;hl=en"> 
+    <a class="nav-link" href="https://scholar.google.com/citations?user=hgpd7fMAAAAJ&amp;hl=en" target="blank"> 
 <span class="menu-text">Google Scholar</span></a>
   </li>  
 </ul>
@@ -121,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#professional-organizations" id="toc-professional-organizations" class="nav-link" data-scroll-target="#professional-organizations">Professional Organizations</a></li>
   <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   <li><a href="#presentations" id="toc-presentations" class="nav-link" data-scroll-target="#presentations">Presentations</a></li>
-  <li><a href="#download" id="toc-download" class="nav-link" data-scroll-target="#download">Download</a></li>
+  <li><a href="#download" id="toc-download" class="nav-link" data-scroll-target="#download"></a><a href="./images/CV.pdf" target="_blank" class="nav-link" data-scroll-target="./images/CV.pdf">Download</a></li>
   </ul>
 </nav>
 </nav>
@@ -279,7 +283,7 @@ National Association of Geoscience Teachers Earth Educators’ Rendezvous 2023</
 <p><strong>Mae Saslaw</strong> and John Bershaw. 2018. Mixing of the Willamette and Columbia Rivers across Sauvie Island, Oregon based on stable isotopes (δ​18O and δD) of surface water. American Geophysical Union Fall Meeting.</p>
 </section>
 <section id="download" class="level2">
-<h2 class="anchored" data-anchor-id="download"><a href="./images/CV.pdf">Download</a></h2>
+<h2 class="anchored" data-anchor-id="download"><a href="./images/CV.pdf" target="_blank">Download</a></h2>
 
 
 </section>
@@ -377,7 +381,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/saslaw\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -722,7 +726,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://quarto.org">
+    <a class="nav-link" href="https://quarto.org" target="blank">
 <p>Made with Quarto</p>
 </a>
   </li>  

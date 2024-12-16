@@ -22,5 +22,14 @@
   },
   "agu24-poster.qmd": {
     "agu24-poster.html": "a323fc3f"
+  },
+  "posts/agu24.qmd": {
+    "agu24.html": "bb726919"
+  },
+  "posts.qmd": {
+    "posts.html": "d4c8e415"
+  },
+  "posts/poster-advice-1.qmd": {
+    "poster-advice-1.html": "f8c990b4"
   }
 }

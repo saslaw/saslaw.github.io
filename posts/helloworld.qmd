@@ -1,7 +1,7 @@
 ---
 title: "Hello, world"
-description: "That new blog smell" 
-date: last-modified
+draft: true
+date: 2024-12-06
 categories:
     - Quarto
 ---

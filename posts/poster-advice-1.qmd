@@ -1,0 +1,45 @@
+---
+title: "Tools for poster reference lists"
+date: last-modified
+description: "A brief description of my process" 
+categories:
+    - Presentations
+    - Workflow
+    - Advice
+---
+
+Most of us, when we're browsing a poster hall, are attracted to posters with minimal text. One way to reduce word count is to use numbered references rather than in-line citations, and abbreviate the reference list or move it off of the poster and use a QR code that links to a public document. My <a href="/images/AGU24-poster-web.pdf" target="_blank">
+most recent poster</a> for [AGU24](/posts/agu24.qmd) includes seven authors and 26 references, and the workflow described below saved me some effort. I hope someone finds these suggestions useful!
+
+![](/images/AGU24-poster-web.png){fig-alt="small image of the poster linked above, please refer to PDF for poster text"}
+
+All of the collaborative note taking and text development happened in a single Google Doc. I use [Zotero with Google Docs](https://www.zotero.org/support/google_docs) and added references as we wrote the poster text. Whenever we made changes to the poster layout, I made sure that the order of text in the document was consistent, and included figure captions and citations within the captions. By keeping the layout document (which only one co-author and I could access) and shared Google Doc in sync, we also had all the content available to reformat into specific web documents, like [AGU's iPoster](https://agu24.ipostersessions.com/default.aspx?s=1F-3C-42-25-C4-61-76-19-A5-32-E4-60-48-93-C4-E8&guestview=true). 
+
+![](/images/Screenshot-Docs-1.png){fig-alt="screenshot from Google Docs showing the process with text with bracketed numbered captions"}
+
+In the past, I have exported multiple versions of my reference list in order to have the citations numbered on the poster and formatted the way I liked on the web. Zotero comes with several popular formats preloaded; the IEEE format produces a numbered list with brackets, and I typically use different formats from my field's journals for reference lists. This time, I created [a new citation style lanugage (CSL) file](https://gist.github.com/saslaw/efb228c3f611cd2423f4a48eda1778ff) that combines the numbered citations with AGU's reference style. I specified my new style in the Google Doc, and I was able to update the citation numbers automatically when re-arranging the poster. **Without Zotero and my custom style, I'd either have had to manually re-number my citations on the poster and re-order them on the reference list, or add hundreds of characters to my poster with parenthetical citations.**
+
+Here's the important part of that custom CSL: 
+
+```
+<citation>
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout delimiter=", ">
+      <group prefix="[" suffix="]" delimiter=", ">
+        <text variable="citation-number"/>
+        <text macro="citation-locator"/>
+      </group>
+    </layout>
+  </citation>
+  <bibliography hanging-indent="false" et-al-min="8" et-al-use-first="6" entry-spacing="1" line-spacing="1">
+    <layout>
+      <!-- Citation Number -->
+      <text variable="citation-number" prefix="[" suffix="] "/>
+      <!-- Rest of Citation -->
+```
+
+When the text was finalized, I pasted the numbered reference list from my Google Doc onto [this page](/agu24-poster.qmd) and created a QR code (I use [qrcode monkey](https://www.qrcode-monkey.com)) to add to the poster. 
+
+If you'd like to see more poster advice, you can let me know by [leaving a reply on Bluesky!](https://bsky.app/profile/did:plc:aiw7ay5m2ynjgxi25xkcen7r/post/3ldhb3fccmk22) 

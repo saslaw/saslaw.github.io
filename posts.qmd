@@ -1,0 +1,8 @@
+---
+title: "Updates"
+listing:
+    categories: true
+    contents: posts
+    sort: "date desc"
+---
+

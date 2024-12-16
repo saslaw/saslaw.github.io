@@ -1,8 +1,9 @@
 [
   {
-    "listing": "/news.html",
+    "listing": "/posts.html",
     "items": [
-      "/posts/helloworld.html"
+      "/posts/poster-advice-1.html",
+      "/posts/agu24.html"
     ]
   }
 ]
