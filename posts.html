@@ -63,9 +63,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -115,7 +115,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -143,6 +143,10 @@ window.Quarto = {
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+<span class="menu-text">Updates</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -168,7 +172,8 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QWR2aWNl">Advice <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJlc2VudGF0aW9ucw==">Presentations <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V29ya2Zsb3c=">Workflow <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -197,7 +202,43 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UHJlc2VudGF0aW9ucw==" data-listing-date-sort="1734325200000" data-listing-file-modified-sort="1734374396211" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="111">
+<div class="quarto-post image-right" data-index="0" data-categories="UHJlc2VudGF0aW9ucyxXb3JrZmxvdyxBZHZpY2U=" data-listing-date-sort="1734382726000" data-listing-file-modified-sort="1734382726645" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="484">
+<div class="thumbnail">
+<p><a href="./posts/poster-advice-1.html" class="no-external"></a></p><a href="./posts/poster-advice-1.html" class="no-external">
+<p class="card-img-top"><img src="images/AGU24-poster-web.png" alt="small image of the poster linked above, please refer to PDF for poster text"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/poster-advice-1.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/poster-advice-1.html" class="no-external">Tools for poster reference lists</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/poster-advice-1.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VudGF0aW9ucw=='); return false;">
+Presentations
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('V29ya2Zsb3c='); return false;">
+Workflow
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('QWR2aWNl'); return false;">
+Advice
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/poster-advice-1.html" class="no-external">A brief description of my process</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/poster-advice-1.html" class="no-external">
+<div class="listing-date">
+Dec 16, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="UHJlc2VudGF0aW9ucw==" data-listing-date-sort="1734066000000" data-listing-file-modified-sort="1734382678540" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
 <div class="thumbnail">
 <p><a href="./posts/agu24.html" class="no-external"></a></p><a href="./posts/agu24.html" class="no-external">
 <p class="card-img-top"><img src="images/AGU24-TMP.png"  class="thumbnail-image card-img"/></p>
@@ -210,6 +251,11 @@ window.Quarto = {
 <div class="listing-subtitle">
 <a href="./posts/agu24.html" class="no-external"></a>
 </div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlc2VudGF0aW9ucw=='); return false;">
+Presentations
+</div>
+</div>
 <div class="listing-description">
 <a href="./posts/agu24.html" class="no-external">AGU24 was a success! Thank you to all my friends and colleagues, I hope we see each other again soon!</a>
 </div>
@@ -217,7 +263,7 @@ window.Quarto = {
 <div class="metadata">
 <a href="./posts/agu24.html" class="no-external">
 <div class="listing-date">
-Dec 16, 2024
+Dec 13, 2024
 </div>
 </a>
 </div>
