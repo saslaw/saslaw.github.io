@@ -34,9 +34,3 @@ website:
       - text: Made with Quarto
         href: https://quarto.org
   search: false
-  announcement: 
-    icon: easel
-    dismissable: false
-    content: "I'm going to AGU24! Stop by [my presentations](agu24.qmd) and follow [#AGU24 on Bluesky](https://bsky.app/hashtag/AGU24)"
-    type: info
-    position: below-navbar
