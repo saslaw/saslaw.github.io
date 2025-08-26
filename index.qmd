@@ -10,7 +10,7 @@ engine: knitr
 :::
 
 ::: {#bio}
-I use stable isotope geochemistry to answer questions about past and present climate, analyzing waters and carbonate rocks and combining measurements with models to better understand environmental processes. Climate history repeats itself, and past analogues inform our forward modeling. My research aims to refine interpretations from complex stable isotope proxy systems, and develop models of present-day stable isotope systematics that can inform water resource management decisions. 
+I am a Postdoctoral Fellow in The Earth Commons at Georgetown Univeristy. I use stable isotope geochemistry to answer questions about past and present climate, analyzing waters and carbonate rocks and combining measurements with models to better understand environmental processes. Climate history repeats itself, and past analogues inform our forward modeling. My research aims to refine interpretations from complex stable isotope proxy systems, and develop models of present-day stable isotope systematics that can inform water resource management decisions. 
 
 :::
 :::
