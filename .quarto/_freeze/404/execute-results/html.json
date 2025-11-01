@@ -2,7 +2,7 @@
   "hash": "c20f1c9f4e4206cd658afb42e1244034",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Error: 404\"\nengine: knitr\n---\n\n::: {.cell}\n<style type=\"text/css\">\nfigcaption{    \n    text-align: center;\n    margin: auto;}\n</style>\n:::\n\n\n![An important reminder](images/404-ken.png){fig-alt=\"Lisa Frank unicorn and moon, top text says Always preserve the integrity of the raw data, bottom text says Professor Ken Cruikshank\"}",
+    "markdown": "---\ntitle: \"Error: 404\"\nengine: knitr\n---\n\n::: {.cell}\n<style type=\"text/css\">\nfigcaption{    \n    text-align: center;\n    margin: auto;}\n</style>\n:::\n\n\n\n![An important reminder](images/404-ken.png){fig-alt=\"Lisa Frank unicorn and moon, top text says Always preserve the integrity of the raw data, bottom text says Professor Ken Cruikshank\"}",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

@@ -9,6 +9,10 @@ h2{margin: 0;}
 figure{vertical-align: middle;}
 ```
 
+## Environmental history of the Chesapeake Bay region
+
+As an [Earth Commons Postdoctoral Fellow](https://earthcommons.georgetown.edu/research/eco-fellows/), my research will synthesize existing climate records from the common era with archaeological and historical sources. More information coming soon! 
+
 ::: {layout="[ 30, 70 ]" layout-valign="center"}
 ::: {#TMP}
 ![](images/TMP-logo-sq.png){fig-alt="Turkana Miocene Project logo, three circles represent earth, climate, and life aspects of the project"}

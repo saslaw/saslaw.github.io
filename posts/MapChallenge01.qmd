@@ -1,0 +1,81 @@
+---
+title: "30 Day Map Challenge: Day 1"
+date: 2025-11-01
+description: "Site locations from GNIP" 
+categories:
+  - Maps
+execute: 
+  cache: true
+  echo: false
+  warning: false
+---
+
+```{r}
+#| label: packages
+#| cache: false
+
+pacman::p_load(here, quarto, knitr, tidyverse, readxl, scico, sf, rnaturalearth, rnaturalearthdata)
+```
+
+```{r}
+#| label: map-setup
+#| cache: false 
+
+# Natural Earth borders
+world <- ne_countries(scale = "medium", returnclass = "sf")
+theme_set(theme_bw() + 
+            theme(
+              text = element_text(family = "Helvetica", size = 14),
+              panel.background = element_rect(fill = "white"),
+              panel.border = element_blank()))
+```
+
+# November #30DayMapChallenge
+
+This month, I'll post maps from the [#30DayMapChallenge 2025](https://30daymapchallenge.com) here on my little GitHub site. 
+
+[![](https://raw.githubusercontent.com/tjukanovt/30DayMapChallenge/main/images/flyers/30dmc_2025.png)](https://30daymapchallenge.com){fig-alt="Image is a listing of challenges for each day. Follow the link for a complete list and descriptions"}
+
+Let's see how far I get! 
+
+## Day 1: Points
+
+For the first map, I'm reminding myself how to plot spatial data in R. I've used QGIS to produce most of the maps I've made lately, so one aspect of this challenge for me will be deciding which tool to use for each map. This one is a good opportunity to revisit all the options in the [sf package](https://cran.r-project.org/web/packages/sf/index.html) for R. 
+
+I downloaded data from the International Atomic Energy Agency's (IAEA) Global Network of Isotopes In Precipitation (GNIP), which I'll likely explore more of as the challenge continues. Today, I selected data from all active sites using [IAEA's database](https://nucleus.iaea.org/wiser/explore/) and plotted the collection station locations on a [Mollweide Projection](https://en.wikipedia.org/wiki/Mollweide_projection).
+
+```{r}
+#| label: GNIP-data
+
+# Summarize downloaded data and re-save smaller file
+# gnip <- read_excel(here("posts/data/GNIP.xlsx"))
+# gnip.sites <- gnip |>
+#   group_by(`Sample Site Name`) |>
+#   summarize(Long = mean(Longitude),
+#             Lat = mean(Latitude),
+#             Alt.m = mean(Altitude))
+# write.csv(gnip.sites, here("posts/data/GNIP-sites.csv"), row.names = FALSE)
+
+# # Import site locations
+gnip.sites <-read.csv(here("posts/data/GNIP-sites.csv"))
+
+# Convert site locations to sf object
+gnip.sites.sf <- st_as_sf(gnip.sites, coords = c("Long", "Lat"), 
+    crs = 4326, agr = "constant")
+```
+
+```{r}
+#| label: day01
+#| fig-alt: "Map of GNIP sites colored by altitude"
+#| fig-width: 10
+
+ggplot(data = world) +
+  geom_sf() +
+  geom_sf(data = gnip.sites.sf, aes(color = Alt.m), size = 1.5) + 
+  scale_color_scico(palette = "hawaii", direction = 1) +
+  guides(color = guide_colorbar(title = "Altitude (meters)")) +
+  coord_sf(crs = "ESRI:54009") +
+  labs(title = "Active GNIP collection sites (2025)")
+```
+
+Canada and Central and South America have the most coverage. There is sparse coverage in Europe, and few active stations elsewhere in the world. Most stations are below 1000 meters above sea level. Good thing there are tools like the [Online Isotopes in Precipitation Calculator](https://wateriso.utah.edu/waterisotopes/pages/data_access/oipc.html) to help fill in the wide gaps. 
