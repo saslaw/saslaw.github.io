@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-01-08">
-<meta name="description" content="A brief description of my process">
+<meta name="dcterms.date" content="2025-11-01">
 
-<title>Tools for poster reference lists – Mae Saslaw</title>
+<title>30 Day Map Challenge: Day 1 – Mae Saslaw</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -120,19 +119,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tools for poster reference lists</h1>
+<h1 class="title">30 Day Map Challenge: Day 1</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Presentations</div>
-    <div class="quarto-category">Workflow</div>
-    <div class="quarto-category">Advice</div>
+    <div class="quarto-category">Maps</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    A brief description of my process
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -141,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 8, 2025</p>
+      <p class="date">November 1, 2025</p>
     </div>
   </div>
   
@@ -153,32 +145,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Most of us, when we’re browsing a poster hall, are attracted to posters with minimal text. One way to reduce word count is to use numbered references rather than in-line citations, and abbreviate the reference list or move it off of the poster and use a QR code that links to a public document. My <a href="../images/AGU24-poster-web.pdf" target="_blank"> most recent poster</a> for <a href="../posts/agu24.html">AGU24</a> includes seven authors and 26 references, and the workflow described below saved me some effort. I hope someone finds these suggestions useful!</p>
-<p><img src="../images/AGU24-poster-web.png" class="img-fluid" alt="small image of the poster linked above, please refer to PDF for poster text"></p>
-<p>All of the collaborative note taking and text development happened in a single Google Doc. I use <a href="https://www.zotero.org/support/google_docs">Zotero with Google Docs</a> and added references as we wrote the poster text. Whenever we made changes to the poster layout, I made sure that the order of text in the document was consistent, and included figure captions and citations within the captions. By keeping the layout document (which only one co-author and I could access) and shared Google Doc in sync, we also had all the content available to reformat into specific web documents, like <a href="https://agu24.ipostersessions.com/default.aspx?s=1F-3C-42-25-C4-61-76-19-A5-32-E4-60-48-93-C4-E8&amp;guestview=true">AGU’s iPoster</a>.</p>
-<p><img src="../images/Screenshot-Docs-1.png" class="img-fluid" alt="screenshot from Google Docs showing the process with text with bracketed numbered captions"></p>
-<p>In the past, I have exported multiple versions of my reference list in order to have the citations numbered on the poster and formatted the way I liked on the web. Zotero comes with several popular formats preloaded; the IEEE format produces a numbered list with brackets, and I typically use different formats from my field’s journals for reference lists. This time, I created <a href="https://gist.github.com/saslaw/efb228c3f611cd2423f4a48eda1778ff">a new citation style lanugage (CSL) file</a> that combines the numbered citations with AGU’s reference style. I specified my new style in the Google Doc, and I was able to update the citation numbers automatically when re-arranging the poster. <strong>Without Zotero and my custom style, I’d either have had to manually re-number my citations on the poster and re-order them on the reference list, or add hundreds of characters to my poster with parenthetical citations.</strong></p>
-<p>Here’s the important part of that custom CSL:</p>
-<pre><code>&lt;citation&gt;
-    &lt;sort&gt;
-      &lt;key variable="citation-number"/&gt;
-    &lt;/sort&gt;
-    &lt;layout delimiter=", "&gt;
-      &lt;group prefix="[" suffix="]" delimiter=", "&gt;
-        &lt;text variable="citation-number"/&gt;
-        &lt;text macro="citation-locator"/&gt;
-      &lt;/group&gt;
-    &lt;/layout&gt;
-  &lt;/citation&gt;
-  &lt;bibliography hanging-indent="false" et-al-min="8" et-al-use-first="6" entry-spacing="1" line-spacing="1"&gt;
-    &lt;layout&gt;
-      &lt;!-- Citation Number --&gt;
-      &lt;text variable="citation-number" prefix="[" suffix="] "/&gt;
-      &lt;!-- Rest of Citation --&gt;</code></pre>
-<p>When the text was finalized, I pasted the numbered reference list from my Google Doc onto <a href="../agu24-poster.html">this page</a> and created a QR code (I use <a href="https://www.qrcode-monkey.com">qrcode monkey</a>) to add to the poster.</p>
-<p>If you’d like to see more poster advice, you can let me know by <a href="https://bsky.app/profile/did:plc:aiw7ay5m2ynjgxi25xkcen7r/post/3ldhb3fccmk22">leaving a reply on Bluesky!</a></p>
+<section id="november-30daymapchallenge" class="level1">
+<h1>November #30DayMapChallenge</h1>
+<p>This month, I’ll post maps from the <a href="https://30daymapchallenge.com">#30DayMapChallenge 2025</a> here on my little GitHub site.</p>
+<p><a href="https://30daymapchallenge.com" data-fig-alt="Image is a listing of challenges for each day. Follow the link for a complete list and descriptions"><img src="https://raw.githubusercontent.com/tjukanovt/30DayMapChallenge/main/images/flyers/30dmc_2025.png" class="img-fluid"></a></p>
+<p>Let’s see how far I get!</p>
+<section id="day-1-points" class="level2">
+<h2 class="anchored" data-anchor-id="day-1-points">Day 1: Points</h2>
+<p>For the first map, I’m reminding myself how to plot spatial data in R. I’ve used QGIS to produce most of the maps I’ve made lately, so one aspect of this challenge for me will be deciding which tool to use for each map. This one is a good opportunity to revisit all the options in the <a href="https://cran.r-project.org/web/packages/sf/index.html">sf package</a> for R.</p>
+<p>I downloaded data from the International Atomic Energy Agency’s (IAEA) Global Network of Isotopes In Precipitation (GNIP), which I’ll likely explore more of as the challenge continues. Today, I selected data from all active sites using <a href="https://nucleus.iaea.org/wiser/explore/">IAEA’s database</a> and plotted the collection station locations on a <a href="https://en.wikipedia.org/wiki/Mollweide_projection">Mollweide Projection</a>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="MapChallenge01_files/figure-html/day01-1.png" class="img-fluid figure-img" alt="Map of GNIP sites colored by altitude" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Canada and Central and South America have the most coverage. There is sparse coverage in Europe, and few active stations elsewhere in the world. Most stations are below 1000 meters above sea level. Good thing there are tools like the <a href="https://wateriso.utah.edu/waterisotopes/pages/data_access/oipc.html">Online Isotopes in Precipitation Calculator</a> to help fill in the wide gaps.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
