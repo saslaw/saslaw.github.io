@@ -1,0 +1,72 @@
+---
+title: "30 Day Map Challenge: Day 2"
+date: 2025-11-02
+description: "New York State Faults" 
+categories:
+  - Maps
+execute: 
+  cache: false
+  echo: false
+  warning: false
+---
+
+```{r}
+#| label: packages
+
+pacman::p_load(here, quarto, knitr, tidyverse, readxl, scico, sf, rnaturalearth, rnaturalearthdata, maps, terra, tidyterra, raster)
+```
+
+```{r}
+#| label: map-setup
+
+# Theme
+theme_set(theme_bw() + 
+            theme(
+              text = element_text(family = "Helvetica", size = 14),
+              panel.background = element_rect(fill = "white"),
+              panel.border = element_blank()))
+```
+
+# Day 2: Lines
+
+As a geologist, my first idea for Day 2 was faults. Not _fault lines_, because they're planes that extend into the bedrock, just faults. On the map, they look like lines, and I already had this shapefile from the [New York State Museum GIS archives](https://nysm.nysed.gov/research-collections/geology/gis). I'm approaching this challenge with the goal of using what I have and efficiently producing maps that fulfill the assignment that I'm happy to share. To finish putting this map together in R, I also needed raster imagery from [Natural Earth](https://www.naturalearthdata.com).
+
+This one turned out a little more complicated than I'd planned because I decided to crop the shaded relief imagery to the NY state boundary. My method uses the [terra package](https://cran.r-project.org/web/packages/terra/index.html) to import the raster TIF and crop and mask the raster object, and [tidyterra](https://cran.r-project.org/web/packages/tidyterra/index.html) to plot in ggplot2.
+
+```{r}
+#| label: data
+#| output: false
+#| echo: true
+#| code-fold: true
+#| code-summary: "Data processing code"
+
+# NYS faults
+faults <- st_read(here("posts/data/nys_faults/NYS_Faults.shp")) |>
+  st_set_crs(st_crs("EPSG:26718")) # CRS obtained from metadata at https://data.gis.ny.gov/documents/573c1f2fe8ae43ab980b654caad03500/about
+
+# State borders from rnaturalearth
+states <- st_as_sf(map("state", plot = FALSE, fill = TRUE))
+nys <- filter(states, ID == "new york") 
+
+# Shaded relief map downloaded from Natural Earth
+hypso <- rast(here("posts/data/HYP_HR_SR_W_DR/HYP_HR_SR_W_DR.tif"))
+
+# Shaded relief for NYS 
+hypso.crop <- terra::crop(hypso, extent(nys))
+hypso.mask <- terra::mask(hypso.crop, nys)
+```
+When I tried to render this map using Quarto, I discovered an issue with tidyterra and Quarto. I was getting an `! external pointer is not valid` error, which occurred because the `geom_spatraster()` object is [non-exportable](https://future.futureverse.org/articles/future-4-non-exportable-objects.html). In order to avoid this, I set my Quarto cache to false. 
+
+```{r}
+#| label: day02
+#| fig-alt: "Map of faults in New York State with land cover shading"
+#| echo: true
+#| code-fold: true
+#| code-summary: "Plot code"
+
+ggplot() +
+  geom_spatraster_rgb(data = hypso.mask) + 
+  geom_sf(data = faults, color = "white", alpha = 0.6) +
+  coord_sf(crs = "EPSG:26718") +
+  labs(title = "Mapped faults in New York State")
+```

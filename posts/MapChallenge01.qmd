@@ -23,6 +23,8 @@ pacman::p_load(here, quarto, knitr, tidyverse, readxl, scico, sf, rnaturalearth,
 
 # Natural Earth borders
 world <- ne_countries(scale = "medium", returnclass = "sf")
+
+# Theme
 theme_set(theme_bw() + 
             theme(
               text = element_text(family = "Helvetica", size = 14),
@@ -45,7 +47,7 @@ For the first map, I'm reminding myself how to plot spatial data in R. I've used
 I downloaded data from the International Atomic Energy Agency's (IAEA) Global Network of Isotopes In Precipitation (GNIP), which I'll likely explore more of as the challenge continues. Today, I selected data from all active sites using [IAEA's database](https://nucleus.iaea.org/wiser/explore/) and plotted the collection station locations on a [Mollweide Projection](https://en.wikipedia.org/wiki/Mollweide_projection).
 
 ```{r}
-#| label: GNIP-data
+#| label: data
 
 # Summarize downloaded data and re-save smaller file
 # gnip <- read_excel(here("posts/data/GNIP.xlsx"))
