@@ -29,7 +29,7 @@ theme_set(theme_bw() +
 
 # Day 2: Lines
 
-As a geologist, my first idea for Day 2 was faults. Not _fault lines_, because they're planes that extend into the bedrock, just faults. On the map, they look like lines, and I already had this shapefile from the [New York State Museum GIS archives](https://nysm.nysed.gov/research-collections/geology/gis). I'm approaching this challenge with the goal of using what I have and efficiently producing maps that fulfill the assignment that I'm happy to share. To finish putting this map together in R, I also needed raster imagery from [Natural Earth](https://www.naturalearthdata.com).
+As a geologist, my first idea for Day 2 was faults. Not _fault lines_, because they're planes that extend into the bedrock, just faults. On the map, they look like lines, and I already had this shapefile from the [New York State Museum GIS archives](https://nysm.nysed.gov/research-collections/geology/gis). I'm approaching this 30 day challenge with the goal of using data I have and efficiently producing maps that fulfill the assignment. To finish putting this map together in R, I also needed raster imagery from [Natural Earth](https://www.naturalearthdata.com).
 
 This one turned out a little more complicated than I'd planned because I decided to crop the shaded relief imagery to the NY state boundary. My method uses the [terra package](https://cran.r-project.org/web/packages/terra/index.html) to import the raster TIF and crop and mask the raster object, and [tidyterra](https://cran.r-project.org/web/packages/tidyterra/index.html) to plot in ggplot2.
 
@@ -55,7 +55,7 @@ hypso <- rast(here("posts/data/HYP_HR_SR_W_DR/HYP_HR_SR_W_DR.tif"))
 hypso.crop <- terra::crop(hypso, extent(nys))
 hypso.mask <- terra::mask(hypso.crop, nys)
 ```
-When I tried to render this map using Quarto, I discovered an issue with tidyterra and Quarto. I was getting an `! external pointer is not valid` error, which occurred because the `geom_spatraster()` object is [non-exportable](https://future.futureverse.org/articles/future-4-non-exportable-objects.html). In order to avoid this, I set my Quarto cache to false. 
+When I tried to render this map using Quarto, I discovered an issue with tidyterra and Quarto. I was getting an `! external pointer is not valid` error, which occurred because the `geom_spatraster()` object is [non-exportable](https://future.futureverse.org/articles/future-4-non-exportable-objects.html). In order to avoid this, I set my Quarto cache to false and deleted the folder of cached files. 
 
 ```{r}
 #| label: day02
@@ -70,3 +70,5 @@ ggplot() +
   coord_sf(crs = "EPSG:26718") +
   labs(title = "Mapped faults in New York State")
 ```
+
+I think this map still wants a north arrow and scale bar, but for the sake of everything else I planned to do this weekend, I'll leave it alone. 

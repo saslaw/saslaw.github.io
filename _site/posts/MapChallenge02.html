@@ -187,7 +187,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="day-2-lines" class="level1">
 <h1>Day 2: Lines</h1>
-<p>As a geologist, my first idea for Day 2 was faults. Not <em>fault lines</em>, because they’re planes that extend into the bedrock, just faults. On the map, they look like lines, and I already had this shapefile from the <a href="https://nysm.nysed.gov/research-collections/geology/gis">New York State Museum GIS archives</a>. I’m approaching this challenge with the goal of using what I have and efficiently producing maps that fulfill the assignment that I’m happy to share. To finish putting this map together in R, I also needed raster imagery from <a href="https://www.naturalearthdata.com">Natural Earth</a>.</p>
+<p>As a geologist, my first idea for Day 2 was faults. Not <em>fault lines</em>, because they’re planes that extend into the bedrock, just faults. On the map, they look like lines, and I already had this shapefile from the <a href="https://nysm.nysed.gov/research-collections/geology/gis">New York State Museum GIS archives</a>. I’m approaching this 30 day challenge with the goal of using data I have and efficiently producing maps that fulfill the assignment. To finish putting this map together in R, I also needed raster imagery from <a href="https://www.naturalearthdata.com">Natural Earth</a>.</p>
 <p>This one turned out a little more complicated than I’d planned because I decided to crop the shaded relief imagery to the NY state boundary. My method uses the <a href="https://cran.r-project.org/web/packages/terra/index.html">terra package</a> to import the raster TIF and crop and mask the raster object, and <a href="https://cran.r-project.org/web/packages/tidyterra/index.html">tidyterra</a> to plot in ggplot2.</p>
 <div class="cell">
 <details class="code-fold">
@@ -208,7 +208,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>hypso.mask <span class="ot">&lt;-</span> terra<span class="sc">::</span><span class="fu">mask</span>(hypso.crop, nys)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>When I tried to render this map using Quarto, I discovered an issue with tidyterra and Quarto. I was getting an <code>! external pointer is not valid</code> error, which occurred because the <code>geom_spatraster()</code> object is <a href="https://future.futureverse.org/articles/future-4-non-exportable-objects.html">non-exportable</a>. In order to avoid this, I set my Quarto cache to false.</p>
+<p>When I tried to render this map using Quarto, I discovered an issue with tidyterra and Quarto. I was getting an <code>! external pointer is not valid</code> error, which occurred because the <code>geom_spatraster()</code> object is <a href="https://future.futureverse.org/articles/future-4-non-exportable-objects.html">non-exportable</a>. In order to avoid this, I set my Quarto cache to false and deleted the folder of cached files.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Plot code</summary>
@@ -226,6 +226,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+<p>I think this map still wants a north arrow and scale bar, but for the sake of everything else I planned to do this weekend, I’ll leave it alone.</p>
 
 
 </section>
@@ -323,7 +324,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/saslaw\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
