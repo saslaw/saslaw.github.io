@@ -20,11 +20,16 @@ Pratt Institute 2009
 
 ## Research
 
+Postdoctoral Fellow\
+Environmental history of the Susquehanna River\
+Georgetown University Earth Commons\
+2025 – Present
+
 Graduate Research Assistant\
 Clumped isotope paleoclimate records from Miocene soil carbonates, Turkana Basin, Kenya\
 [The Henkes Lab](https://sites.google.com/stonybrook.edu/thehenkeslab)\
 Stony Brook University Department of Geosciences\
-Fall 2019 – Present
+2019 – 2025
 
 NSF Research Experience for Undergraduates\
 Stable isotopes of surface water across Sauvie Island, Oregon\
@@ -110,6 +115,9 @@ Spring 2018
 
 ## Professional Activities
 
+Session Chair, Climate Change & Earth, Environmental, and Atmospheric Sciences\	
+The First International Symposium of Nonbinary Scientists, Virtual 2025
+
 Co-Convener, Exploring changes in climate, flora, and fauna of Africa through the Cenozoic\
 Geological Society of America Connects, Pittsburgh, PA 2023
 
@@ -129,6 +137,8 @@ American Geophysical Union\
 
 ## Publications
 
+**Saslaw, M.**, Munoz, A., Stinchcomb, G., Minya, A., Shedroff, S., Esber, R., Batlay, A., Liutkus-Pierce, C., Miller, E., Beck, C. C., Feibel C. S., Henkes, G. A. Late Early Miocene paleoclimate and paleoenvironments in the Turkana Basin from pedogenic carbonate isotope geochemistry. _(in preparation)_
+
 **Saslaw, M.**, Henkes, G. A., Green, D., Kirinya, M., Boyd, M., Hatton, K., Ngumbau, H., Mwangombe, H. 2025. Soil Temperature Measurements, 2019–2023, Turkana Basin Institute Research Centers, Kenya [dataset]. PANGAEA. <https://doi.org/10.1594/PANGAEA.981566>
 
 **Saslaw, M.**, Yang, D., Lee, D., Poulsen, C. J., & Henkes, G. A. 2024. An Isotope Mass Balance Analysis of Evaporative Loss From Lake Turkana, Kenya Using δ18O and δD of Natural Waters. Water Resources Research, 60(6), e2023WR036076. <https://doi.org/10.1029/2023WR036076>
@@ -140,6 +150,7 @@ Sousa, F.J., Cox, S.E., Hemming, S.R., Rasbury, E.T., Steponaitis, E., Hatton, K
 Justine Modica, **Mae Saslaw**, John Klecker, Alex Miller, Surabhi Balachander, Jeremy Glover, and Glenn Houlihan. 2021. [Graduate Student Workers on the Rise: A forum on graduate student organizing and the future of academic labor.](https://www.aaup.org/article/graduate-student-workers-rise) *Academe, 107(2).*
 
 ## Presentations
+
 **Saslaw, M.** , Lee, D., Tweedy, R., Green, D., Uno, K., Poulsen, P., Henkes, G. 2024. Late Early Miocene Climate in the Turkana Basin, Kenya From Multi-Proxy Records and iCESM Results. American Geophysical Union Annual Meeting. [iPoster.](https://agu24.ipostersessions.com/default.aspx?s=1F-3C-42-25-C4-61-76-19-A5-32-E4-60-48-93-C4-E8&guestview=true)
 
 Pérez-Angel, L., Da, J., Flynn, A., Havranek, R., Novak, J., Romero, I., **Saslaw, M.**, Zhu, F. 2024. A new compilation of terrestrial temperatures during the Miocene. American Geophysical Union Annual Meeting. [Abstract.](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1642372)
