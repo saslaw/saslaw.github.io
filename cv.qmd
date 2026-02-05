@@ -38,6 +38,10 @@ Summer 2018
 
 ## Teaching
 
+Guest Lecturer, Climate change in history\	
+Georgetown University Department of History\
+Spring 2026
+
 Teaching Assistant, Sedimentation and Stratigraphy\
 Stony Brook University Department of Geosciences\
 Spring 2020 & 2025
@@ -90,9 +94,9 @@ Best Undergraduate Poster\
 Sigma Xi Columbia-Willamette Chapter Student Research Symposium\
 Fall 2018
 
-## Leadership
+## Leadership & Service
 
-Peer Mentor Program Coordinator\
+Graduate Peer Mentor Program Coordinator\
 Stony Brook University Department of Geosciences\
 2024 – Present
 
@@ -106,12 +110,6 @@ Organizer, Communications Workers of America Local 1104\
 Graduate Student Liaison\
 Stony Brook University Department of Geosciences\
 2021 – 2023
-
-Founding Vice Chair, Young Democratic Socialists of America Portland State University\
-2017 – 2018
-
-Senator, Associated Students of Portland State University\
-Spring 2018
 
 ## Professional Activities
 
@@ -136,12 +134,15 @@ American Geophysical Union\
 2018 – Present
 
 ## Publications
-
-**Saslaw, M.**, Munoz, A., Stinchcomb, G., Minya, A., Shedroff, S., Esber, R., Batlay, A., Liutkus-Pierce, C., Miller, E., Beck, C. C., Feibel C. S., Henkes, G. A. Late Early Miocene paleoclimate and paleoenvironments in the Turkana Basin from pedogenic carbonate isotope geochemistry. _(in preparation)_
+**Saslaw, M.**, Stinchcomb, G. E., Minya, A., Shedroff, S., Munoz, A., Esber, R., Batlay, A., Liutkus, C., Miller, E., Beck, C. C., Uno, K. T., Feibel C. S., Henkes, G. A. Warm temperatures and C3 vegetation in the late Early Miocene Turkana Basin, Kenya from end-member stable isotopes of heterogenous soil carbonate nodules. _(in review)_ 
 
 **Saslaw, M.**, Henkes, G. A., Green, D., Kirinya, M., Boyd, M., Hatton, K., Ngumbau, H., Mwangombe, H. 2025. Soil Temperature Measurements, 2019–2023, Turkana Basin Institute Research Centers, Kenya [dataset]. PANGAEA. <https://doi.org/10.1594/PANGAEA.981566>
 
 **Saslaw, M.**, Yang, D., Lee, D., Poulsen, C. J., & Henkes, G. A. 2024. An Isotope Mass Balance Analysis of Evaporative Loss From Lake Turkana, Kenya Using δ18O and δD of Natural Waters. Water Resources Research, 60(6), e2023WR036076. <https://doi.org/10.1029/2023WR036076>
+
+Yang, D., **Saslaw, M.**, Henkes, G. 2024. Bayesian approach for modeling Lake Turkana water isotopes (v0.1.2). Zenodo. <https://doi.org/10.5281/zenodo.10668927>
+
+Leakey, A., Henkes, G., **Saslaw, M.**, Martins, D. 2023. Precipitation recorded in the Turkana Basin from 2005 to 2022 [dataset]. Stony Brook University Academic Commons. <https://commons.library.stonybrook.edu/geodata/8/>
 
 Jimenez, A., Bershaw, J., **Saslaw, M.**, Gall, S., Rahalski, E. 2023. Evaluating the Efficacy of Manmade Canals at Maintaining Lake Habitats for Salmon and Birds Using Seasonal Variations in Isotopes of Meteoric Water. ESS Open Archive. <https://doi.org/10.22541/essoar.168926403.34465563/v1>
 
@@ -156,6 +157,12 @@ Justine Modica, **Mae Saslaw**, John Klecker, Alex Miller, Surabhi Balachander, 
 Pérez-Angel, L., Da, J., Flynn, A., Havranek, R., Novak, J., Romero, I., **Saslaw, M.**, Zhu, F. 2024. A new compilation of terrestrial temperatures during the Miocene. American Geophysical Union Annual Meeting. [Abstract.](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1642372)
 
 Stiles, E., Novak, J., Mitsunaga, B., Hare, V., **Saslaw, M.**, Rugenstein, J., Beck, C., Jukar, A., George, S., Lee, D., Strömberg, C., Uno, K., Vetter, L., Zhu, F. 2024. Global Terrestrial Hydrologic Change Since the Mid-Miocene Climatic Optimum: A New Compilation of Hydroclimate Proxy Records and Implications for Future Change. American Geophysical Union Annual Meeting. [Abstract.](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1643128)
+
+Tweedy, R. R., de los Rios, N., **Saslaw, M.**, Henkes, G., Green, D. R., Stinchcomb, G., Lukens, W., Minya, A., Shedroff, S., TMP Scientific Team, Uno, K. T. 2024. Terrestrial Plant Wax Isotopes from Turkana Basin Reveal a Wetter, C3 Environment During the Late Cenozoic. American Geophysical Union Annual Meeting. 
+
+Tweedy, R., Uno, K., **Saslaw, M.**, Henkes, G., Feibel, C., Lukens, W.E., Stinchcomb, G. E., Liutkus-Pierce, C., Miller, E., Minya, A., Shedroff, S., Green, Daniel R., House, A., Bapana, S. 2024. Reconstructing Miocene Ecologies in the Turkana Basin: Insights from Plant Wax _n_-Alkanes. Geological Society of America Abstracts with Programs v. 56, no. 5. <https://doi.org/10.1130/abs/2024AM-401757> 
+
+Hatton, K., Rasbury, E. T., Henkes, G., Sousa, F. J., Cox, S. E., Hemming, S., **Saslaw, M.**, Rossie, J.B., Cote, S. 2024. Fossil Wood-Associated Dolomite Records an Unusual Rift Related Fluid. Geological Society of America Abstracts with Programs v. 56, no. 5. <https://doi.org/10.1130/abs/2024AM-405431>
 
 **Saslaw, M.**, Munoz, A., Stinchcomb, G., Minya, A., Shedroff, S., Esber, R., Batlay, A., Liutkus-Pierce, C., Miller, E., Beck, C., Feibel, C., Henkes, G. 2024. Paleoenvironmental Interpretations of Stable Isotopes From Miocene Pedogenic Carbonates with Diagenetic Calcite Components. 9th International Clumped Isotope Workshop, Stony Brook University. <a href="/images/ICIW9-poster-web.pdf" target="_blank">Poster.</a>
 
