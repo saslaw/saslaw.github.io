@@ -1,6 +1,7 @@
 ---
 title: "30 Day Map Challenge: Day 2"
 date: 2025-11-02
+draft: true
 description: "New York State Faults" 
 categories:
   - Maps
