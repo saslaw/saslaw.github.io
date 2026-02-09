@@ -2,3 +2,4 @@
 .DS_Store
 posts/data/GNIP.xlsx
 /posts/data
+_site/posts/.Rhistory
