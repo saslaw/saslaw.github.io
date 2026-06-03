@@ -4,7 +4,7 @@ pagetitle: "Mae Saslaw | Climate Research"
 engine: knitr
 ---
 
-::: {layout="[ 40, 60 ]"}
+::: {layout="[ 30, 70 ]"}
 ::: {#headshot}
 ![](images/2023-portrait.png){fig-alt="Headshot with the Brooklyn Bridge"}
 :::
@@ -16,7 +16,7 @@ I am interested in applying paleoclimatological methods to questions about envir
 
 My previous work has used stable isotope geochemistry of waters and carbonate rocks to better understand environmental processes in the Turkana Basin, northern Kenya, where primate fossils and contemporary basin hydrology represent millions of years of adaptation to changes on the landscape. Projects I am actively growing are focused on synthesizing climate proxy records of extreme events in North America with archaeological and historical archives.  
 
-Climate history repeats itself, and past analogues inform our forward modeling and our understanding of human relationships with environments and climates. My research aims to illuminate the connections between people and the planet, with a 20 million years-long view. 
+Climate history repeats itself, and past analogues inform forward modeling and our understanding of human relationships with environments and climates. My research aims to illuminate the connections between people and the planet, with a 20 million years-long view. 
 
 :::
 :::
