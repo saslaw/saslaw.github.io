@@ -3,3 +3,7 @@
 posts/data/GNIP.xlsx
 /posts/data
 _site/posts/.Rhistory
+_site/posts/MapChallenge02.qmd
+_site/posts/MapChallenge01.qmd
+
+**/*.quarto_ipynb

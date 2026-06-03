@@ -38,6 +38,7 @@ This one turned out a little more complicated than I'd planned because I decided
 #| label: data
 #| output: false
 #| echo: true
+#| eval: false
 #| code-fold: true
 #| code-summary: "Data processing code"
 
@@ -62,6 +63,7 @@ When I tried to render this map using Quarto, I discovered an issue with tidyter
 #| label: day02
 #| fig-alt: "Map of faults in New York State with land cover shading"
 #| echo: true
+#| eval: false
 #| code-fold: true
 #| code-summary: "Plot code"
 
