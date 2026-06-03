@@ -6,6 +6,10 @@ engine: knitr
 
 ::: {layout="[ 30, 70 ]"}
 ::: {#headshot}
+\
+\
+\
+\
 ![](images/2023-portrait.png){fig-alt="Headshot with the Brooklyn Bridge"}
 :::
 
