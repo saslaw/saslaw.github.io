@@ -142,7 +142,9 @@ American Geophysical Union\
 2018 – Present
 
 ## Publications
-**Saslaw, M.**, Stinchcomb, G. E., Minya, A., Shedroff, S., Munoz, A., Esber, R., Batlay, A., Liutkus, C., Miller, E., Beck, C. C., Uno, K. T., Feibel C. S., Henkes, G. A. Warm temperatures and C3 vegetation in the late Early Miocene Turkana Basin, Kenya from end-member stable isotopes of heterogenous soil carbonate nodules. _(in review)_ 
+**Saslaw, M.**, Stinchcomb, G. E., Minya, A., Shedroff, S., Munoz, A., Esber, R., Batlay, A., Liutkus, C., Miller, E., Beck, C. C., Uno, K. T., Feibel C. S., Henkes, G. A. Modeling of soil carbonate stable isotope end-members indicates warm temperatures and C3 vegetation in the late Early Miocene, Turkana Basin, Kenya. _(in revision)_ 
+
+Cox, S. E., Sousa, F. J., Russo, G. A., Hatton, K., Rasbury, E. T., Hemming, S. R., Steponaitis, E., Henkes, G. A., **Saslaw, M.** 2026. Paired U/Pb and 40Ar/39Ar constraints on the Middle Miocene hominoid sites and the fossil forest at Napudet, Turkana, Kenya. Geological Society of America Bulletin. <https://doi.org/10.1130/B37847.1>
 
 **Saslaw, M.**, Henkes, G. A., Green, D., Kirinya, M., Boyd, M., Hatton, K., Ngumbau, H., Mwangombe, H. 2025. Soil Temperature Measurements, 2019–2023, Turkana Basin Institute Research Centers, Kenya [dataset]. PANGAEA. <https://doi.org/10.1594/PANGAEA.981566>
 
