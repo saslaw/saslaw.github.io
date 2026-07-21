@@ -1,0 +1,48 @@
+---
+title: "I like Obsidian"
+date: last-modified
+description: "Reflections on year one with Obsidian.md" 
+categories:
+    - Workflow
+    - Advice
+---
+
+One year ago today, I defended my dissertation. Ten days later, I was deep in the [Obsidian](https://obsidian.md) fora trying out workflows for my postdoc and beyond. This post is about my adoption and adaptation of Obsidian, how I thought I might use it, and how I came to use it over the past year. It's one of the most flexible pieces of software I've ever seen, and one which no two people seem to use the same way, and as much as I've read about it, I never encountered someone with an identical combination of priorities. Maybe yours are pretty close and maybe you will find this post useful. 
+
+## Background
+
+Because this information is most likely to be most useful to people with similar tech experience and organizational priorities, I will tell you mine. I am pretty good at the computer. My professional experience includes freelance IT consulting[1] and a barely technical role in mobile development that I left[2] to go back to school for climate science. I've been using Markdown for like fifteen years. I do not hesitate to `brew install` and I'm free to do so on my current employer-owned computer. The administration of my own life has never been a struggle for me, I procrastinate like anyone[3] but overall I am good at managing my time, I've always had tidy folders, and I live at inbox zero. I do not use LLMs for anything. 
+
+## What I don't use 
+
+When I [posted on Bluesky](https://bsky.app/profile/oneorseveral.bsky.social/post/3lv7d4kbsz22g), looking for advice on integrating [Quarto](https://quarto.org/), [Zotero](https://www.zotero.org/), and a kanban-style task board, I was making assumptions about how I'd need Obsidian to work based on the workflows I used in grad school. By the end, I was spending most of my time looking at a couple of Quarto notebooks and a Google Sheet that I used as a kanban board. By the very end, it was a pile of Word documents and scraps of paper. I'm glad I spent some time testing out all kinds of integration, and it showed me how far Obsidian can stretch, but I still haven't needed much of what I set up. You can, if you want, get Obsidian to act a bit like an IDE, and I set up plugins for working with Quarto and R, but it has never been practical to do this for two reasons: *1.* I want my vault and data folders to exist in different places and I don't want to deal with Obsidian and Git having to touch; and *2.* It is better to work in a real IDE (I use [Positron](https://positron.posit.co/)). I haven't needed to export notes into other formats, either, though I did test this [Enhancing Export plugin](https://github.com/mokeyish/obsidian-enhancing-export) to be sure that I could export a note to .docx and have my citations still connected to Zotero and not break stable isotope notation (δ^13^C, anyone?). I was impressed that it worked. I found some kanban plugins that were okay but in the process I found I preferred a different approach, which is —
+
+## What I use
+
+The [Tasks plugin](https://publish.obsidian.md/tasks/Introduction) coupled with [Dataview](https://community.obsidian.md/plugins/dataview), a popular combination for lots of Obsidian use cases. Dataview is, to me, one of the things that makes Obsidian a powerful tool — I use it to corral types of information across all my notes into summaries. I have one note called "To do" that contains the following code:
+
+![](/images/carbon-tasks.png){fig-alt="tasks not done filter by function task.status.type !== 'CANCELLED' folder does not include FOLDER/ path does not include FILE.md hide tree sort by urgency sort by due sort by priority sort by status.type"}
+
+I can pin this note, in Viewer mode, to my sidebar, and I can keep To do items in their respective notes with more context while having a list that includes everything I want, and nothing I don't. 
+
+I have another summary note that collects callout text across my vault. When a note includes a big question that I want to keep in mind, I put the question in a callout, and I use this Dataview code to see them all when I get stuck or want a reminder: 
+
+![](/images/carbon-callouts.png){fig-alt="dataviewjs const pages = dv.pages() const regex = REGEX const rows = |] for (const page of pages) { // Read the file contents const file = app.vault.getAbstractFileByPath(page.file.path) const contents = await app.vault.read(file); // Add all callouts to the rows const callout = contents.match(regex) |||]; if (callout.length > 0) { rows.push([page.file.link, callout. join('\n')l)} } // Create table dv.table(['Note' , ''l, rows)"}
+
+I got this partly from a forum post and partly from a friend who knows regex. It was a little annoying to get here but worth it. 
+
+The other big plugins I use are [Templater](https://community.obsidian.md/plugins/templater-obsidian) to generate weekly notes (where I keep short-term tasks and bits of info that often get cut-and-pasted into other notes later on) and [Style Settings](https://community.obsidian.md/plugins/obsidian-style-settings) for UI customization. 
+
+For academic purposes, I rely on the trifecta of [Zotero Integration](https://community.obsidian.md/plugins/obsidian-zotero-desktop-connector), [Pandoc](https://community.obsidian.md/plugins/obsidian-pandoc), and [Pandoc Reference List](https://github.com/obsidian-community/obsidian-pandoc-reference-list). All of these require setup outside of Obsidian, including installing [BetterBibTex for Zotero](https://retorque.re/zotero-better-bibtex/). I'm not someone who keeps one note file per text, which is how a lot of people like to connect Zotero and Obsidian. I just like to cite papers in my notes using citation keys. As an isotope guy, [Extended Markdown Syntax](https://github.com/mkotowski/obsidian-extended-syntax) is also a must for me. I also use [Outliner](https://community.obsidian.md/plugins/obsidian-outliner) and [Outline Converter](https://community.obsidian.md/plugins/outline-converter) for manipulating outlines. 
+
+Somewhere along my Obsidian journey, another user mentioned [Hookmark](https://hookproductivity.com), an app that has been well worth $29.99 out of my project budget. I use it to add links in Obsidian to files and emails, mostly so that tasks are associated with an immanently findable thing. It is one of those tools I wish I had known about way sooner. 
+
+## Conclusion 
+
+That is the blog post, thank you for reading. 
+
+---
+
+1. In NYC in the late aughts it was possible to almost make a living billing rich people upwards of $100/hr to do things like sync multiple calendars on their phones for them 
+2. In Portland, OR in the mid tens it was easy to make a comfortable living writing emails and drinking in the office and I could not keep doing it 
+3. What do you think this is
