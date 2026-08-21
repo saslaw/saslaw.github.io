@@ -21,7 +21,7 @@ Pratt Institute 2009
 ## Research
 
 Postdoctoral Fellowship\
-Environmental history of the Susquehanna River watershed\
+Extreme hydroclimate events in eastern North America\
 The Earth Commons, Georgetown University\
 2025 – Present
 
@@ -36,6 +36,14 @@ Center for Climate and Aerosol Research, Portland State University\
 Summer 2018
 
 ## Teaching
+
+Co-instructor, Environmental Data to Lead Change\	
+Georgetown University Earth Commons\
+Fall 2026
+
+Co-instructor, Environmental Data Visualization\	
+Georgetown University Earth Commons\
+Fall 2026
 
 Guest Lecturer, Climate change in history\
 Georgetown University Department of History\
@@ -143,6 +151,8 @@ American Geophysical Union\
 
 ## Publications
 **Saslaw, M.**, Stinchcomb, G. E., Minya, A., Shedroff, S., Munoz, A., Esber, R., Batlay, A., Liutkus, C., Miller, E., Beck, C. C., Uno, K. T., Feibel C. S., Henkes, G. A. Modeling of soil carbonate stable isotope end-members indicates warm temperatures and C3 vegetation in the late Early Miocene, Turkana Basin, Kenya. _(in revision)_ 
+
+Burls, N. J., … **Saslaw, M.**, et al. 2026. MioMIP2: Experimental design for Phase 1 & 2 of the Miocene component of the CMIP7/PMIP7 Deep-time Model Intercomparison Project (DeepMIP-Miocene). EGUsphere. https://doi.org/10.5194/egusphere-2026-3595 
 
 Cox, S. E., Sousa, F. J., Russo, G. A., Hatton, K., Rasbury, E. T., Hemming, S. R., Steponaitis, E., Henkes, G. A., **Saslaw, M.** 2026. Paired U/Pb and 40Ar/39Ar constraints on the Middle Miocene hominoid sites and the fossil forest at Napudet, Turkana, Kenya. Geological Society of America Bulletin. <https://doi.org/10.1130/B37847.1>
 
